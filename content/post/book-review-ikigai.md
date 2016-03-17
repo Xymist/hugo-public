@@ -34,6 +34,4 @@ I thoroughly recommend this book, *iff* you're willing to put the effort into it
 
 You do have to remember that the book is compiled and edited from the author's blog posts over the course of some considerable time. The style varies as the book goes on, and the order of chapters very occasionally feels slightly 'off'; presumably because the posts themselves were not in a strict order of ideas to begin with.
 
-------------
-
 [^n]: I'm still not interested, but it certainly seems like something I ought to know about, so I'll be looking into that.

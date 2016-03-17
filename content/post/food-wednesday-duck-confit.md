@@ -40,11 +40,12 @@ So, first up, you'll be desiccating your duck legs. Since most desiccants are no
 Dice your half head of garlic, set it aside. You'll need it in a bit, but it's a nice easy start, and we all like that, right? Besides, it smells awesome.
 
 Get yourself a box like this:
-![](/blog/content/images/2015/08/IMG_20150821_204639-1-.jpg)
+![](/images/2015/08/IMG_20150821_204639-1-.jpg)
 
 Important factors here: it seals, and it has the rack in the bottom to give it a bit of space underneath the meat. Arrange your duck legs artistically in the box, and then sprinkle salt (all of it), juniper berries, the caster sugar, that garlic you shredded, and lots of ground black pepper (use an actual grinder. I'm sure you don't own the powdered stuff, but just in case...).
 
 Now it gets boring for a while. Seal up the box, hide it in the fridge for a couple of days. Yup, days. Blame kinetics, this is a slow process.
+
 .
 
 ..

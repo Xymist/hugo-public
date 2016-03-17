@@ -5,10 +5,11 @@ theme = "hugo-uno"
 
 [Params]
   author = "james"
-  description = "Personal website of James Duerden: experimenter, developer and project manager"
+  description = "Personal website of James Duerden: Experimenter, Developer and Project Manager"
   cover = "/images/main/background.jpg"
   logo = "/images/main/logo.jpg"
-  cv = "https://resume.creddle.io/resume/byl98eawltz"
+  projects = "/project"
+  cv = "/pages/resume"
   linkedin = "jamesduerden"
   github = "Xymist/"
   email = "james@jamieduerden.co.uk"
