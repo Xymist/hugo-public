@@ -1,7 +1,14 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://jamieduerden.co.uk/"
 languageCode = "en-gb"
-title = "My New Hugo Site"
-theme = "hugo-theme-air"
+title = "Not So Fungible"
+theme = "hugo-uno"
 
 [Params]
-  Author = "james"
+  author = "james"
+  description = "Personal website of James Duerden: experimenter, developer and project manager"
+  cover = "/images/main/background.jpg"
+  logo = "/images/main/logo.jpg"
+  cv = "https://resume.creddle.io/resume/byl98eawltz"
+  linkedin = "jamesduerden"
+  github = "Xymist/"
+  email = "james@jamieduerden.co.uk"
