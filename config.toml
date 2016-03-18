@@ -2,6 +2,7 @@ baseurl = "http://jamieduerden.co.uk/"
 languageCode = "en-gb"
 title = "Not So Fungible"
 theme = "hugo-uno"
+favicon = "/images/main/favicon.ico"
 
 [Params]
   author = "james"
