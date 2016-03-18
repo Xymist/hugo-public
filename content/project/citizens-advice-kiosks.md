@@ -1,6 +1,6 @@
 +++
-title = "Citizens' Advice Waverley Kiosk Project"
+title = "Citizens' Advice Kiosk Project"
 date = "2015-03-15"
 +++
 
-This was The CAB project
+In partnership with other charities and several Waverley GP surgeries, I headed the team responsible for commissioning and installing a number of self-service advice terminals.
