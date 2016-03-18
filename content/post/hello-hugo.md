@@ -13,4 +13,6 @@ I've looked at Clojure, Elixir, Swift and C# (for a variety of different reasons
 
 As a first pass, I've moved both the site and the blog over to [Hugo](http://gohugo.io/) - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it's a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don't like JavaScript very much.
 
+I've taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That's somewhere between vanity and marketing, I think...
+
 If you're seeing this, it worked, so that's a decent start. As a bonus, the whole thing ought to be a little bit faster, though it's not really big enough for that to be a concern.

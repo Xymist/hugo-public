@@ -2,10 +2,11 @@ baseurl = "http://jamieduerden.co.uk/"
 languageCode = "en-gb"
 title = "Not So Fungible"
 theme = "hugo-uno"
+author = "James Duerden"
 favicon = "/images/main/favicon.ico"
 
 [Params]
-  author = "james"
+  AuthorName = "James"
   description = "Personal website of James Duerden: Experimenter, Developer and Project Manager"
   cover = "/images/main/background.jpg"
   logo = "/images/main/logo.jpg"
