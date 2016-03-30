@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Haskell on Not So Fungible </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://jamieduerden.co.uk/tags/haskell/</link>
+    <language>en-gb</language>
+    
+    
+    <updated>Tue, 11 Aug 2015 22:53:53 UTC</updated>
+    
+    <item>
+      <title>Learning Me A Haskell</title>
+      <link>http://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
+      <pubDate>Tue, 11 Aug 2015 22:53:53 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Without much&lt;/strong&gt; reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &amp;lsquo;moderate&amp;rsquo; competence. Won&amp;rsquo;t be winning any prizes for code quality, but it&amp;rsquo;s a learning process, and I&amp;rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.&lt;/p&gt;
+
+&lt;p&gt;There aren&amp;rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from &lt;a href=&#34;http://sandymaguire.me&#34;&gt;Sandy&lt;/a&gt; I went for Haskell.&lt;/p&gt;
+
+&lt;p&gt;That was yesterday.&lt;/p&gt;
+
+&lt;p&gt;Today I passed my own FizzBuzz test: without using StackOverflow (or similar), from the documentation and recommended starting information&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; alone, write the 3&amp;amp;5 FizzBuzz program in that language. It&amp;rsquo;s not that hard, but it&amp;rsquo;s a little more involved than &amp;lsquo;hello world&amp;rsquo;, and helps with the structure and idioms of a new language.&lt;/p&gt;
+
+&lt;p&gt;Commented for your convenience:&lt;/p&gt;
+
+&lt;pre data-line-numbers class=&#34;line-numbers language-haskell&#34;&gt;
+&lt;code class=&#34;language-haskell&#34;&gt;
+fizz n = [ n | n &lt;- [0..n], n `mod` 3 == 0] -- Find all the numbers between 0 and n divisible by three
+buzz n = [ n | n &lt;- [0..n], n `mod` 5 == 0] -- Find all the numbers between 0 and n divisible by five
+
+genFizzBuzz n
+    | n == 0 = show n -- If it&#39;s zero, show zero. This is to fix a peculiarity I found where apparently zero is divisible by everything and thus gets a FizzBuzz.
+    | n `elem` fizz n &amp;&amp; n `elem` buzz n = &#34;FizzBuzz&#34;
+    | n `elem` fizz n = &#34;Fizz&#34;
+    | n `elem` buzz n = &#34;Buzz&#34;
+    | otherwise = show n
+
+fizzy n = [genFizzBuzz x | x &lt;- [0..n]] -- This just lets me set the range to have it work in.
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Crappy code, I know. I&amp;rsquo;m sure there are smaller, neater ways of achieving the same thing, but it works and I&amp;rsquo;m pleased. Eight working hours from &amp;lsquo;I should learn this language&amp;rsquo; to this stage via getting the compiler to work on Windows is a new record.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;In this case &lt;a href=&#34;http://learnyouahaskell.com/&#34;&gt;Learn You A Haskell&lt;/a&gt;. I&amp;rsquo;ve skimmed the whole thing, and am now reading in full. It&amp;rsquo;s not as bizarre as the title implies, unlike &lt;a href=&#34;http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html&#34;&gt;Why&amp;rsquo;s Poignant Guide To Ruby&lt;/a&gt; which is EXACTLY as weird as it sounds.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

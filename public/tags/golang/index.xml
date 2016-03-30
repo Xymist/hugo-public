@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Golang on Not So Fungible </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://jamieduerden.co.uk/tags/golang/</link>
+    <language>en-gb</language>
+    
+    
+    <updated>Wed, 30 Mar 2016 16:16:18 BST</updated>
+    
+    <item>
+      <title>Sloggit</title>
+      <link>http://jamieduerden.co.uk/post/sloggit/</link>
+      <pubDate>Wed, 30 Mar 2016 16:16:18 BST</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/sloggit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;http://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, at least for the time being.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello, Hugo!</title>
+      <link>http://jamieduerden.co.uk/post/hello-hugo/</link>
+      <pubDate>Fri, 18 Mar 2016 00:58:10 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/hello-hugo/</guid>
+      <description>&lt;p&gt;Following my successful move to new hosting, there&amp;rsquo;s been a bit of a hiatus in my blogging. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;http://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;http://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It&amp;rsquo;s still not as heavily syntactically-sugared as I&amp;rsquo;d like, but it&amp;rsquo;s clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare.&lt;/p&gt;
+
+&lt;p&gt;As a first pass, I&amp;rsquo;ve moved both the site and the blog over to &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it&amp;rsquo;s a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don&amp;rsquo;t like JavaScript very much.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That&amp;rsquo;s somewhere between vanity and marketing, I think&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re seeing this, it worked, so that&amp;rsquo;s a decent start. As a bonus, the whole thing ought to be a little bit faster, though it&amp;rsquo;s not really big enough for that to be a concern.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

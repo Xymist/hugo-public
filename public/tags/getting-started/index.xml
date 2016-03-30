@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Getting Started on Not So Fungible </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://jamieduerden.co.uk/tags/getting-started/</link>
+    <language>en-gb</language>
+    
+    
+    <updated>Fri, 03 Jul 2015 14:38:48 UTC</updated>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>http://jamieduerden.co.uk/post/hello-world/</link>
+      <pubDate>Fri, 03 Jul 2015 14:38:48 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/hello-world/</guid>
+      <description>&lt;p&gt;Not exactly original, as titles go, but hey, if the hat fits&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;That you made it here shows a scintilla of imagination, given that it&amp;rsquo;s not linked from the main site. That or you&amp;rsquo;re very curious and randomly enter things into your address bar.&lt;/p&gt;
+
+&lt;p&gt;The main portion of this site is an experiment in &lt;em&gt;AngularJS&lt;/em&gt;, about which I know the square root of sod all, and principally exists because I needed something to practice on. At time of writing it&amp;rsquo;s still buggy; hopefully by the time anyone reads this it will be slick, shiny, and a demonstration of what can be done if one is bored enough.&lt;/p&gt;
+
+&lt;p&gt;This portion is more about documentation; things I&amp;rsquo;ve been working on, bits of fiction, photographs, ideas. There probably won&amp;rsquo;t be much about my life, but if I create or learn anything fun, it&amp;rsquo;ll end up here.&lt;/p&gt;
+
+&lt;p&gt;Until next time,&lt;/p&gt;
+
+&lt;p&gt;Jamie&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posts on Not So Fungible </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://jamieduerden.co.uk/post/</link>
+    <language>en-gb</language>
+    
+    
+    <updated>Wed, 30 Mar 2016 16:16:18 BST</updated>
+    
+    <item>
+      <title>Sloggit</title>
+      <link>http://jamieduerden.co.uk/post/sloggit/</link>
+      <pubDate>Wed, 30 Mar 2016 16:16:18 BST</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/sloggit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;http://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, at least for the time being.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello, Hugo!</title>
+      <link>http://jamieduerden.co.uk/post/hello-hugo/</link>
+      <pubDate>Fri, 18 Mar 2016 00:58:10 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/hello-hugo/</guid>
+      <description>&lt;p&gt;Following my successful move to new hosting, there&amp;rsquo;s been a bit of a hiatus in my blogging. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;http://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;http://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It&amp;rsquo;s still not as heavily syntactically-sugared as I&amp;rsquo;d like, but it&amp;rsquo;s clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare.&lt;/p&gt;
+
+&lt;p&gt;As a first pass, I&amp;rsquo;ve moved both the site and the blog over to &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it&amp;rsquo;s a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don&amp;rsquo;t like JavaScript very much.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That&amp;rsquo;s somewhere between vanity and marketing, I think&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re seeing this, it worked, so that&amp;rsquo;s a decent start. As a bonus, the whole thing ought to be a little bit faster, though it&amp;rsquo;s not really big enough for that to be a concern.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finally moving home</title>
+      <link>http://jamieduerden.co.uk/post/finally-moved/</link>
+      <pubDate>Mon, 21 Dec 2015 22:31:39 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/finally-moved/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ve been meaning&lt;/strong&gt; for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.&lt;/p&gt;
+
+&lt;p&gt;Along the way, I managed to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href=&#34;http://nginx.org/en/&#34;&gt;Nginx&lt;/a&gt; (web server, for pointing people to this blog and my main site)&lt;/li&gt;
+&lt;li&gt;Set up &lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt; to allow me to version control and deploy my various sites&lt;/li&gt;
+&lt;li&gt;Acquire an &lt;a href=&#34;http://startssl.com&#34;&gt;SSL Certificate&lt;/a&gt; so that I can force using HTTPS&lt;/li&gt;
+&lt;li&gt;Install and configure &lt;a href=&#34;http://www.postfix.org/&#34;&gt;Postfix&lt;/a&gt; and &lt;a href=&#34;http://www.dovecot.org/&#34;&gt;Dovecot&lt;/a&gt; so that my email addresses work.&lt;/li&gt;
+&lt;li&gt;Move my site (and blog) over to the new server&lt;/li&gt;
+&lt;li&gt;Write a blog post explaining these steps so that I can refer back to it when I need to do this &lt;em&gt;ridiculously&lt;/em&gt; protracted process again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the final step. This may prove useful to some of you, someday, under a somewhat unlikely set of circumstances. I won&amp;rsquo;t be covering what to do if you use Windows, other than to say that for the first steps you&amp;rsquo;ll need &lt;a href=&#34;http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe&#34;&gt;PuTTY&lt;/a&gt; for the connections, and &lt;a href=&#34;http://the.earth.li/~sgtatham/putty/latest/x86/puttygen.exe&#34;&gt;PuTTYgen&lt;/a&gt; to create your SSH key.&lt;/p&gt;
+
+&lt;p&gt;I bear no responsibility for any damage caused to your sanity or computer systems if you attempt to use this information.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prep Work&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;First thing to do is create an &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH key&lt;/a&gt;, since that&amp;rsquo;s much more convenient than passwords.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re running Linux you should already have &lt;code&gt;ssh-keygen&lt;/code&gt;, and if not you can install it with &lt;code&gt;sudo apt-get ssh-keygen&lt;/code&gt;, which you then use with &lt;code&gt;ssh-keygen -b 4096&lt;/code&gt; and follow the instructions. Leave the path as the default, supply a nice strong passphrase, and make sure it creates the files &lt;code&gt;id_rsa&lt;/code&gt; and &lt;code&gt;id_rsa.pub&lt;/code&gt; in your &lt;code&gt;.ssh&lt;/code&gt; folder. You can use &lt;code&gt;ls /home/yourname/.ssh&lt;/code&gt; to check.&lt;/p&gt;
+
+&lt;p&gt;Now you need a web address. You can buy this from wherever you like, I used &lt;a href=&#34;https://www.namecheap.com/&#34;&gt;Namecheap&lt;/a&gt;. Once it exists you can ignore it for the moment; we&amp;rsquo;ll point it somewhere useful later.&lt;/p&gt;
+
+&lt;p&gt;Then you need an SSL key. You could do this after you start up the server, but StartSSL will sort out some of it for you, which LetsEncrypt doesn&amp;rsquo;t yet. They&amp;rsquo;re working on better automation, but it&amp;rsquo;s not quite there. Over at StartSSL, register for an account, verify your identity, and ask for a certificate for your domain. You also get one subdomain - I used &lt;code&gt;blog.&lt;/code&gt;, fairly often people get &lt;code&gt;mail.&lt;/code&gt; or &lt;code&gt;www.&lt;/code&gt;. Fit to your own requirements. If you want a wildcard certificate (i.e. one which will work for any subdomain) you will need to pay for it. I&amp;rsquo;m a cheapskate, so I have several free ones instead; it makes no real difference.&lt;/p&gt;
+
+&lt;p&gt;StartSSL will produce a key and a certificate for you, which you should copy-paste to yourdomain-locked.key and yourdomain-nochain.crt respectively. It will also allow you to download its own key, which is named something like sub.class1.server.sha2.ca.crt.&lt;/p&gt;
+
+&lt;p&gt;What you do need to do, though, is merge your certificate with that of your certificate authority, and remove the password from the key.&lt;/p&gt;
+
+&lt;p&gt;Run &lt;code&gt;openssl rsa -in yourdomain-locked.key -out yourdomain.key&lt;/code&gt;, and enter the password you used to create the key. That will create one that the server can use.&lt;/p&gt;
+
+&lt;p&gt;Then run &lt;code&gt;cat yourdomain-nochain.crt sub.class1.server.sha2.ca.crt &amp;gt; yourdomain.crt&lt;/code&gt; to create a concatenated certificate file.&lt;/p&gt;
+
+&lt;p&gt;Transfer the .crt containing the two certificates into &lt;code&gt;/etc/ssl/certs/&lt;/code&gt;, and the .key containing the matching key into &lt;code&gt;/etc/ssl/private/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Done all that? Right, go back and do it again; I won&amp;rsquo;t be covering LetsEncrypt, so you&amp;rsquo;ll need to get yourself an SSL certificate for the &lt;code&gt;mail.&lt;/code&gt; subdomain. Same procedure, just with &lt;code&gt;mail.yourdomain&lt;/code&gt; in place of &lt;code&gt;yourdomain&lt;/code&gt; for the requests, and &amp;lsquo;mail-yourdomain&amp;rsquo; for the names of the files.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create a Droplet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Digital Ocean is nice enough to do most of the basic server setup for you. Once you&amp;rsquo;ve sorted out registering, giving them your card details and so on, you&amp;rsquo;ll need to start by creating a Droplet. There&amp;rsquo;s a nice select-a-box page which covers the major options, or you can spin up something with pre-installed dependencies for one of a couple of dozen common server uses.&lt;/p&gt;
+
+&lt;p&gt;In this case, I&amp;rsquo;m using Ubuntu 15.10 x64, $10/month size, in the London datacentre (as close as possible to where I&amp;rsquo;ll be transferring things from and to). Where it asks for the SSH key, it wants &lt;code&gt;id_rsa.pub&lt;/code&gt; that was created in the last step. Do NOT give it &lt;code&gt;id_rsa&lt;/code&gt; - that is your private key, and should not leave your computer. Ideally you would copy that one off onto a memory stick, because it&amp;rsquo;s needed to get access to the server once you&amp;rsquo;ve locked it down, and you really don&amp;rsquo;t want to lose it.&lt;/p&gt;
+
+&lt;p&gt;You only want one copy of this, so leave that bit alone, give your new toy something memorable for its hostname, and click &amp;lsquo;create&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;Bravo! You have a server. You&amp;rsquo;re now paying 0.017 pence per minute for it, so best get cracking.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Initial Setup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On the Control Panel (to which you are returned after creating your Droplet) you will be able to see the IP address of the server. For now, that&amp;rsquo;s its only identifier; it doesn&amp;rsquo;t yet have a web address, so we&amp;rsquo;ll fix that first, since DNS changes take a while to propagate. Go back to where you bought your domain name, and find the options for &amp;lsquo;nameservers&amp;rsquo;. For our current purposes, these should be set to &amp;lsquo;ns1.digitalocean.com&amp;rsquo;, &amp;lsquo;ns2.digitalocean.com&amp;rsquo;, and (you guessed it) &amp;lsquo;ns3.digitalocean.com&amp;rsquo;. All this does is tell &amp;ldquo;the internet&amp;rdquo; to ask Digital Ocean where to find your site, if anyone sends out a request for that domain name.&lt;/p&gt;
+
+&lt;p&gt;Back to DO, and over to the &amp;lsquo;Networking&amp;rsquo; tab. Pick &amp;lsquo;Domains&amp;rsquo; from the left hand side, type your domain name into the left box, and select your Droplet from the right dropdown. That will assign your name to your server. It still won&amp;rsquo;t do anything obvious if you type it into a web browser (first because these things take a while to be communicated across the web, and second because we haven&amp;rsquo;t set up a web server yet), but it&amp;rsquo;s there.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll see there&amp;rsquo;s now an entry for that domain name on the Domains page. Click the little magnifying glass, and you&amp;rsquo;ll be able to see all the DNS entries for that domain, and hence for your server (you can do &amp;lsquo;clever&amp;rsquo; things where one domain points to multiple servers or has subdomains which do; if you need that either you are beyond this level or you&amp;rsquo;re working on something where you &lt;em&gt;really&lt;/em&gt; ought to hire a professional). We don&amp;rsquo;t need to do much here. Start with creating a CNAME record for * and your domain; this points all subdomains to your main domain name, allowing your web server to take care of the detail and for people not to get lost if they accidentally type &amp;lsquo;wwww.&amp;rsquo; instead of &amp;lsquo;www.&amp;rsquo; (because people are dumb and we have to account for that).&lt;/p&gt;
+
+&lt;p&gt;We also, assuming you want an email address, need an MX record. Hostname is either &lt;code&gt;yourdomain&lt;/code&gt; or &lt;code&gt;mail.yourdomain&lt;/code&gt;; either will work, the latter is more usual. Priority is 20. This needs to be paired with another A record; &lt;code&gt;mail. -&amp;gt; your droplet IP&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Test this with &lt;code&gt;host yourdomain&lt;/code&gt;, which will (all being well) return:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yourdomain has address {IP address of server}
+yourdomain mail is handled by 20 yourdomain.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Depending on how fast things are going today, you may now be able to open up a terminal and run &lt;code&gt;ssh root@{yourdomain}&lt;/code&gt; and get something sensible - you gave it your SSH key, so it should just log you in. If it insists that your domain doesn&amp;rsquo;t go anywhere, you either typed it wrong or you need to wait a while, so use &lt;code&gt;ssh root@{ip-of-your-droplet}&lt;/code&gt;. You should see a prompt, something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Welcome to Ubuntu 15.10 (GNU/Linux 4.2.0-16-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+Last login: {now} from {your IP address}
+root@{hostname}:~#
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Unless specified otherwise, everything from now on needs to be run in this shell. If you run it in the shell on your computer, it will not affect your server and you may screw up your pc, so pay attention to which environment you&amp;rsquo;re typing in.&lt;/p&gt;
+
+&lt;p&gt;Before you do anything else, though, you need to update properly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;ll bring you up to date and ready for the next phase.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Setting up a web server&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Presumably you&amp;rsquo;re doing this because you want a website, which means you&amp;rsquo;re going to need a web server. In this case I&amp;rsquo;m using Nginx; Apache is a perfectly good choice, but it&amp;rsquo;s slightly more of a pain to configure.&lt;/p&gt;
+
+&lt;p&gt;You can start this up fairly simply by running &lt;code&gt;sudo apt-get install nginx&lt;/code&gt;, which will download and install the core files and services required. Check it&amp;rsquo;s working by opening a browser and navigating to your domain name; you should see the Nginx &amp;lsquo;yup, it works, now do something useful with it&amp;rsquo; welcome page.&lt;/p&gt;
+
+&lt;p&gt;Since we&amp;rsquo;re working on it, issue &lt;code&gt;sudo service nginx stop&lt;/code&gt; to shut it down for now. In case it hasn&amp;rsquo;t happened already, you&amp;rsquo;ll want to tell Nginx to restart when your server restarts, so issue &lt;code&gt;sudo update-rc.d nginx defaults&lt;/code&gt; - if it tells you there was an error because the rules already exist, that&amp;rsquo;s fine.&lt;/p&gt;
+
+&lt;p&gt;The default page for Nginx isn&amp;rsquo;t that useful, so we need to create a proto-website (to prove it&amp;rsquo;s running) and a configuration file to tell Nginx how to serve it.&lt;/p&gt;
+
+&lt;p&gt;Start by disabling the default page: &lt;code&gt;sudo rm /etc/nginx/sites-enabled/default&lt;/code&gt;
+Then create your new config file: &lt;code&gt;sudo nano /etc/nginx/sites-available/yourdomain&lt;/code&gt; - this will open up a text editor.&lt;/p&gt;
+
+&lt;p&gt;The config file should look something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;server {
+        listen 80 default_server;
+        server_name yourdomain.com www.yourdomain.com;
+        return 301 https://$server_name$request_uri;
+}       #This redirects all insecure traffic via https.
+
+server {
+        listen   443;
+
+        ssl    on;
+        ssl_certificate    /etc/ssl/certs/yourdomain.crt;
+        ssl_certificate_key    /etc/ssl/private/yourdomain.key;
+
+        root /var/www/yoursitename/public_html/;
+
+        index index.html index.htm;
+        server_name yourdomain.com www.yourdomain.com;
+
+        location / {
+                try_files $uri $uri/ /index.html;
+        }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Save and exit with &lt;code&gt;ctrl-x -&amp;gt; y -&amp;gt; Enter&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You then need to link that (which is, after all, just an &lt;em&gt;available&lt;/em&gt; site) to the &lt;em&gt;enabled&lt;/em&gt; folder. This is just a symlink: &lt;code&gt;ln -s /etc/nginx/sites-available/yourdomain /etc/nginx/sites-enabled/yourdomain/&lt;/code&gt;. You should see if you &lt;code&gt;ls /etc/nginx/sites-available&lt;/code&gt; that you have just the one link in there, to your new config.&lt;/p&gt;
+
+&lt;p&gt;This doesn&amp;rsquo;t do anything useful yet - as you can tell, since &lt;code&gt;/var/www/yoursitename/public_html/&lt;/code&gt; doesn&amp;rsquo;t exist yet. Let&amp;rsquo;s fix that.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo mkdir -p /var/www/yoursitename/public_html&lt;/code&gt; will create the folder, and then &lt;code&gt;sudo nano /var/www/yoursitename/public_html/index.html&lt;/code&gt; will create an index page for editing.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;h1&amp;gt;Congrats, it works!&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;Now go do something useful with it...&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Save that, then start up Nginx with &lt;code&gt;sudo service Nginx start&lt;/code&gt;. It should spin up with no errors, and if you then go back to your browser and navigate to your domain, you should see your page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mail Server&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Next step is a touch harder, but worth the trouble; I&amp;rsquo;m afraid it&amp;rsquo;ll be a wall of text, though, because it&amp;rsquo;s almost all just a few huge config files.&lt;/p&gt;
+
+&lt;p&gt;Start with installing our dependencies: &lt;code&gt;sudo apt-get install postfix dovecot-core dovecot-imapd&lt;/code&gt;, and stopping the new services: &lt;code&gt;sudo postfix stop &amp;amp;&amp;amp; sudo service dovecot stop&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then you need to create your Postfix configuration:
+&lt;code&gt;sudo rm /etc/postfix/master.cf &amp;amp;&amp;amp; sudo nano /etc/postfix/master.cf&lt;/code&gt; - this will remove the defaults, and open a blank version, which then needs to look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;smtp      inet  n       -       -       -       -       smtpd
+submission inet n       -       -       -       -       smtpd
+  -o syslog_name=postfix/submission
+  -o smtpd_tls_security_level=encrypt
+  -o smtpd_tls_wrappermode=no
+  -o smtpd_sasl_auth_enable=yes
+  -o smtpd_sasl_security_options=noanonymous
+  -o smtpd_sasl_local_domain=YOURDOMAIN
+  -o smtpd_recipient_restrictions=permit_mynetworks,permit_sasl_authenticated,reject
+  -o milter_macro_daemon_name=ORIGINATING
+  -o smtpd_sasl_type=dovecot
+  -o smtpd_sasl_path=private/auth
+  -o broken_sasl_auth_clients=yes
+
+pickup    unix  n       -       -       60      1       pickup
+cleanup   unix  n       -       -       -       0       cleanup
+qmgr      unix  n       -       n       300     1       qmgr
+#qmgr     unix  n       -       n       300     1       oqmgr
+tlsmgr    unix  -       -       -       1000?   1       tlsmgr
+rewrite   unix  -       -       -       -       -       trivial-rewrite
+bounce    unix  -       -       -       -       0       bounce
+defer     unix  -       -       -       -       0       bounce
+trace     unix  -       -       -       -       0       bounce
+verify    unix  -       -       -       -       1       verify
+flush     unix  n       -       -       1000?   0       flush
+proxymap  unix  -       -       n       -       -       proxymap
+proxywrite unix -       -       n       -       1       proxymap
+smtp      unix  -       -       -       -       -       smtp
+relay     unix  -       -       -       -       -       smtp
+showq     unix  n       -       -       -       -       showq
+error     unix  -       -       -       -       -       error
+retry     unix  -       -       -       -       -       error
+discard   unix  -       -       -       -       -       discard
+local     unix  -       n       n       -       -       local
+virtual   unix  -       n       n       -       -       virtual
+lmtp      unix  -       -       -       -       -       lmtp
+anvil     unix  -       -       -       -       1       anvil
+scache    unix  -       -       -       -       1       scache
+maildrop  unix  -       n       n       -       -       pipe
+  flags=DRhu user=vmail argv=/usr/bin/maildrop -d ${recipient}
+uucp      unix  -       n       n       -       -       pipe
+  flags=Fqhu user=uucp argv=uux -r -n -z -a$sender - $nexthop!rmail ($recipient)
+ifmail    unix  -       n       n       -       -       pipe
+  flags=F user=ftn argv=/usr/lib/ifmail/ifmail -r $nexthop ($recipient)
+bsmtp     unix  -       n       n       -       -       pipe
+  flags=Fq. user=bsmtp argv=/usr/lib/bsmtp/bsmtp -t$nexthop -f$sender $recipient
+scalemail-backend unix  -       n       n       -       2       pipe
+  flags=R user=scalemail argv=/usr/lib/scalemail/bin/scalemail-store ${nexthop} ${user} ${extension}
+mailman   unix  -       n       n       -       -       pipe
+  flags=FR user=list argv=/usr/lib/mailman/bin/postfix-to-mailman.py
+  ${nexthop} ${user}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Good thing we have copy-paste, because that does take a while to type and you can&amp;rsquo;t miss out any of the symbols.&lt;/p&gt;
+
+&lt;p&gt;Similarly, we need to fix up /etc/postfix/main.cf:
+&lt;code&gt;sudo rm /etc/postfix/main.cf &amp;amp;&amp;amp; sudo nano /etc/postfix/main.cf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then paste this slightly smaller monstrosity:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;myhostname = MAIL.YOURDOMAIN
+myorigin = YOURDOMAIN
+mydestination = YOURDOMAIN, MAIL.YOURDOMAIN, localhost, localhost.localdomain
+relayhost =
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+mailbox_size_limit = 0
+recipient_delimiter = +
+inet_interfaces = all
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+smtpd_tls_cert_file=/etc/ssl/certs/mail-yourdomain.crt
+smtpd_tls_key_file=/etc/ssl/private/mail-yourdomain.key
+smtpd_use_tls=yes
+smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+smtpd_tls_security_level=may
+smtpd_tls_protocols = !SSLv2, !SSLv3
+local_recipient_maps = proxy:unix:passwd.byname $alias_maps
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Did you spot that &lt;code&gt;alias-maps&lt;/code&gt;? We need to make that, or it won&amp;rsquo;t find anybody if someone emails any of the admin possibilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo nano /etc/aliases&lt;/code&gt;, then paste the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mailer-daemon: root
+hostmaster: root
+webmaster: root
+postmaster: root
+www: root
+ftp: root
+abuse: root
+root: root
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That just makes sure nothing falls through the cracks.&lt;/p&gt;
+
+&lt;p&gt;Now we go to work on Dovecot, the other half of the equation.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo nano /etc/dovecot/dovecot.conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;disable_plaintext_auth = no
+mail_privileged_group = mail
+mail_location = mbox:~/mail:INBOX=/var/mail/%u
+
+ssl=required
+ssl_cert = &amp;lt;/etc/ssl/certs/mail-yourdomain.crt
+ssl_key = &amp;lt;/etc/ssl/private/mail-yourdomain.key
+
+userdb {
+  driver = passwd
+}
+passdb {
+  args = %s
+  driver = pam
+}
+protocols = &amp;quot; imap&amp;quot;
+
+protocol imap {
+  mail_plugins = &amp;quot; autocreate&amp;quot;
+}
+plugin {
+  autocreate = Trash
+  autocreate2 = Sent
+  autosubscribe = Trash
+  autosubscribe2 = Sent
+}
+
+service auth {
+  unix_listener /var/spool/postfix/private/auth {
+    group = postfix
+    mode = 0660
+    user = postfix
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And you should have a working mail server. Restart everything: &lt;code&gt;newaliases &amp;amp;&amp;amp; sudo postfix start &amp;amp;&amp;amp; sudo service dovecot start&lt;/code&gt;, and if nothing throws an error you&amp;rsquo;re almost there.&lt;/p&gt;
+
+&lt;p&gt;The last thing to do, of course, is create an account. The way Digital Ocean starts things up, you&amp;rsquo;re probably running all this as Root. That&amp;rsquo;s not all that handy, and besides, you want your name. So you need to add yourself as a user, which will automatically create a mail account for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo adduser YOURNAME&lt;/code&gt; and follow the instructions; once that&amp;rsquo;s done, &lt;code&gt;su - YOURNAME&lt;/code&gt; and you should be presented with a new prompt; one for you, rather than Root. &lt;code&gt;exit&lt;/code&gt; to return to the root shell, and then go attempt to login and send some mail with Thunderbird. The username is YOURNAME (not YOURNAME@yourdomain), the IMAP port is 993, the SMTP port is 587, and you&amp;rsquo;re using &amp;lsquo;normal password&amp;rsquo; with STARTTLS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publishing a Website&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;OK, so you now have working email and a running webserver. You&amp;rsquo;ll be wanting to publish something under the web address, so you need a convenient and fast way to transfer things to the server. The handiest, neatest way of doing this is with a Git repository, and a post-receive script (FTP went out with the nineties).&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t have Git on your local machine, go get that. Then do the same for the server. In both cases, the command is just &lt;code&gt;sudo apt-get install git&lt;/code&gt;. We&amp;rsquo;ll get to what it&amp;rsquo;s for in a moment.&lt;/p&gt;
+
+&lt;p&gt;Currently, your website is owned by Root. That&amp;rsquo;s not exactly secure, now is it?&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make a new person: &lt;code&gt;sudo adduser yoursite-admin&lt;/code&gt;, and assign ownership to them: &lt;code&gt;sudo chown -R yoursite-admin /var/www/yoursitename/&lt;/code&gt;. This person also needs to have root privileges for some things, so &lt;code&gt;sudo visudo&lt;/code&gt; and add the line &lt;code&gt;yoursite-admin    ALL=(ALL:ALL) ALL&lt;/code&gt; just underneath the equivalent line for Root. You should also add &lt;code&gt;Defaults insults&lt;/code&gt; underneath the other Defaults declarations.&lt;/p&gt;
+
+&lt;p&gt;Now just &lt;code&gt;su - yoursite-admin&lt;/code&gt; and you&amp;rsquo;re ready to start getting ready to publish.&lt;/p&gt;
+
+&lt;p&gt;You should already be in ~, as that&amp;rsquo;s the default when you switch users. &lt;code&gt;mkdir yoursite.git &amp;amp;&amp;amp; cd yoursite.git &amp;amp;&amp;amp; git init --bare&lt;/code&gt; This will create a new Git repository with no working tree, especially for you to push files to. You need to tell it what to do with them, though.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nano /hooks/post-receive&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/env ruby
+# post-receive
+
+from, to, branch = ARGF.read.split &amp;quot; &amp;quot;
+
+if (branch =~ /master$/) == nil
+    exit
+end
+
+deploy_to_dir = File.expand_path(&#39;/var/www/yoursitename/public_html/&#39;)
+`GIT_WORK_TREE=&amp;quot;#{deploy_to_dir}&amp;quot; git checkout -f master`
+puts &amp;quot;Successfully deployed to &#39;#{deploy_to_dir}&#39;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This won&amp;rsquo;t do much without Ruby, though. The best way to get hold of this is via the Ruby Version Manager:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+source ~/.rvm/scripts/rvm
+rvm install 2.2
+rvm use 2.2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then &lt;code&gt;ruby -v&lt;/code&gt; should tell you that you&amp;rsquo;re on Ruby version 2.2.1, if all went well.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s happening here is that the Git repository was created without a Working Tree, or a place to keep its data. All it is, without that, is a record of the changes you&amp;rsquo;ve made. The post-receive script notices when a push is made, pulls all the relevant files, and deploys them to the designated location - in this case, the web root of your site.&lt;/p&gt;
+
+&lt;p&gt;You now need to set this up as your remote. Assuming you have a Git repository containing your website files already on your computer, this is relatively straightforward. Move back to your local machine&amp;rsquo;s terminal, and add a remote: &lt;code&gt;git remote add yoursite ssh://yoursite-admin@yourdomain/~/yoursite.git&lt;/code&gt;. Then &lt;code&gt;git add -A &amp;amp;&amp;amp; git commit -am &amp;quot;first push to new server&amp;quot;&lt;/code&gt;, followed by &lt;code&gt;git push yoursite master&lt;/code&gt;. With any luck, this won&amp;rsquo;t tell you that yoursite is not a Git repository, and will push to production. Browsing to &lt;a href=&#34;https://yourdomain&#34;&gt;https://yourdomain&lt;/a&gt; should then display the website you&amp;rsquo;ve been aiming for all along.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s worth doing this again, but slightly differently. Create another Nginx server file, named something like testing-yoursite and with a server name of testing.yourdomain, along with the related &lt;code&gt;/var/www/&lt;/code&gt; folders. Then, with the same user you created for the main site, create another Git repository and give it a post-receive file which points to this second path. The post-receive file ought to lack the &lt;code&gt;if branch...&lt;/code&gt; block. Now you can deploy speculative changes to a staging area, including branches, and see if they break anything (when in essentially the exact same environment as the production site) and tidy things up if they do.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;rsquo;t cover the somewhat trial-and-error experience of moving a Ghost blog from one server to another; suffice it to say that the export/import procedure in the &amp;lsquo;Labs&amp;rsquo; page is very handy.&lt;/p&gt;
+
+&lt;p&gt;Any queries on this, you can ping me and I&amp;rsquo;ll endeavour to help - my email is on the main site.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Cassoulet</title>
+      <link>http://jamieduerden.co.uk/post/food-wednesday-cassoulet/</link>
+      <pubDate>Wed, 09 Dec 2015 15:30:09 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/food-wednesday-cassoulet/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I promised&lt;/strong&gt; quite a long time ago, now, to give you all the rest of my recipe for not-actually-cassoulet. The confit duck legs of the previous recipe are one component of this; today you get the rest. Lucky you! I suggest you do the legs first since they need several days to mature.&lt;/p&gt;
+
+&lt;p&gt;The topping on this variant happens to be gluten-free, which was originally just because a friend of mine has this habit of getting rather ill when she eats bread, but turned out to be a rather tasty alternative to breadcrumbs.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;em&gt;not&lt;/em&gt; low salt. Nor is it low fat, low calorie, low sugar, or otherwise boring. Portion accordingly - this recipe will serve between eight and twelve.&lt;/p&gt;
+
+&lt;p&gt;Without further ado:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Beans&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ingredients&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Three tins (3x300g) flageolet beans, drained and rinsed with cold water&lt;/li&gt;
+&lt;li&gt;Two (2) shallots, diced&lt;/li&gt;
+&lt;li&gt;One (1) onion, diced&lt;/li&gt;
+&lt;li&gt;Quarter (¼) tbsp. fresh thyme leaves (removed from stalks)&lt;/li&gt;
+&lt;li&gt;Quarter (¼) tbsp. fresh rosemary needles (removed from stalks)&lt;/li&gt;
+&lt;li&gt;One (1) bay leaf&lt;/li&gt;
+&lt;li&gt;One (1) tsp crushed red chilli flakes&lt;/li&gt;
+&lt;li&gt;Pinch of salt, pepper&lt;/li&gt;
+&lt;li&gt;One (1) glass of dry white wine (about 125ml)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Procedure&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;This bit&amp;rsquo;s not hard. Toss everything in a saucepan together, cover (plus a cm or so) with boiling water, boil for ten minutes. Have a sandwich or something.&lt;/p&gt;
+
+&lt;p&gt;You need all of this, but not at the same time; strain the wet bit into a jug (which I&amp;rsquo;m going to refer to as &lt;em&gt;Jug One&lt;/em&gt; from now, because we like giving innocuous things important-sounding names. The rest you keep in &lt;em&gt;Bowl One&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Right, good job. On to:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Vegetables&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ingredients&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;180g diced pancetta. You could buy pre-diced, or you could go down to the deli and have them cut you a chunk off the pork belly to dice yourself. I leave it to you to guess which usually tastes better.&lt;/li&gt;
+&lt;li&gt;Three (3) tbsp. duck fat&lt;/li&gt;
+&lt;li&gt;Six (6) carrots, peeled and sliced thickly&lt;/li&gt;
+&lt;li&gt;One (1) onion, diced&lt;/li&gt;
+&lt;li&gt;One (1) shallot, diced&lt;/li&gt;
+&lt;li&gt;One (1) small head of garlic, all cloves stripped of skin, chopped roughly&lt;/li&gt;
+&lt;li&gt;Three (3) tins chopped Italian tomatoes, mostly drained&lt;/li&gt;
+&lt;li&gt;Salt, pepper (as always)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Procedure&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Start by getting your frying pan nice and hot, and give it a smallish spoonful of the duck fat to get cracking on. When you think it&amp;rsquo;s ready, add all the pancetta and fry until crispy. Keep it moving or it&amp;rsquo;ll probably weld itself to the pan, which is no good because those bits are nowhere near as tasty and there&amp;rsquo;s some evidence to suggest that burned meat is a carcinogen. Who wants cancer, hm?&lt;/p&gt;
+
+&lt;p&gt;Once it&amp;rsquo;s crispy, drain off the fat and transfer the meat to &lt;em&gt;Bowl One&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The pan&amp;rsquo;s still hot, so add another spoonful of the fat and all the carrots. Season and toss until soft and golden around the edges, then the same again - out with the fat, carrots in the bowl with the pancetta.&lt;/p&gt;
+
+&lt;p&gt;With the last of the fat, you need to sweat the alliums, then (leaving them in the pan) add the tomatoes, simmer for about twenty minutes, then add to the bowl, stir, and cover so nothing escapes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Meat&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is where it really stops being cassoulet, or so my French chef friend informs me. True cassoulet should have sausage in it. That doesn&amp;rsquo;t really work for me, so I use duck breasts. Six of them, to be precise.&lt;/p&gt;
+
+&lt;p&gt;Preheat your oven to 465K. While that&amp;rsquo;s heating up, lay out your duck breasts skin up, and score the skin and fat without cutting the meat. Shake a little salt over them, then flip them over into a roasting tin. Roast for about a quarter of an hour, then rest for five minutes; you don&amp;rsquo;t want to take much longer for the roasting or they&amp;rsquo;ll be tough, which is sad.&lt;/p&gt;
+
+&lt;p&gt;Slice into cubes of about an inch, then add to &lt;em&gt;Bowl Two&lt;/em&gt;. Tip the meat juices into &lt;em&gt;Jug One&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Retrieve your confit duck legs from under their fat by warming them gently in the oven. Pull them into chunks with a pair of forks, and add those to &lt;em&gt;Bowl Two&lt;/em&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Crumbs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ingredients&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;300g corn flakes&lt;/li&gt;
+&lt;li&gt;150g hazelnuts&lt;/li&gt;
+&lt;li&gt;One (1) tablespoon rice flour&lt;/li&gt;
+&lt;li&gt;Zest of two lemons&lt;/li&gt;
+&lt;li&gt;Juice of one lemon&lt;/li&gt;
+&lt;li&gt;Three (3) tablespoons olive oil&lt;/li&gt;
+&lt;li&gt;A good handful of grated parmesan&lt;/li&gt;
+&lt;li&gt;One (1) level tbsp of brown sugar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Procedure&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Blend. That&amp;rsquo;s it. Not much of a procedure, is it? All together in the food processor, blitz until fluffy crumbs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Final Assembly&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Bowl One&lt;/em&gt; now contains all vegetable components, and &lt;em&gt;Bowl Two&lt;/em&gt; now contains all meat components.
+&lt;em&gt;Jug One&lt;/em&gt; now contains all fluid components except water.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Procedure&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Your oven should already be hot from roasting the duck breast, so set it to 450K while you assemble the cassoulet in the biggest casserole dish you can find.&lt;/p&gt;
+
+&lt;p&gt;Cover the bottom of casserole dish with half of the vegetable mixture, followed by all the meat. Top with the remaining vegetables so you have the start of a delicious bread-free sandwich. Add all the liquid, topping up with hot water if necessary until the liquid just shows through the vegetables.&lt;/p&gt;
+
+&lt;p&gt;Cook, without covering, for 45 minutes to an hour, so all the flavours meld. Remove from the oven.&lt;/p&gt;
+
+&lt;p&gt;Cover the surface of the cassoulet with an even layer of the breadcrumbs. Scatter with a little brown sugar, return to the oven and bake for about 45 minutes, until the surface of the breadcrumb layer is browned and cracked.&lt;/p&gt;
+
+&lt;p&gt;Allow to cool for an hour before eating; it will still be hot.&lt;/p&gt;
+
+&lt;p&gt;So there you go. The rest of the recipe. Rather large, and not really scalable, as such; best kept for dinner parties, funerals, and other festive occasions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Duck Confit</title>
+      <link>http://jamieduerden.co.uk/post/food-wednesday-duck-confit/</link>
+      <pubDate>Wed, 26 Aug 2015 20:29:20 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/food-wednesday-duck-confit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This one&lt;/strong&gt; was actually done on a Sunday, but you&amp;rsquo;re getting it on Wednesday because how else does one maintain a new tradition?&lt;/p&gt;
+
+&lt;p&gt;Confit duck leg isn&amp;rsquo;t exactly complex, though there&amp;rsquo;s a fair bit in the sauce here, but it&amp;rsquo;s delicious and sounds impressive, if that&amp;rsquo;s something you go for in your food. Duck itself is a fairly versatile meat, so long as you don&amp;rsquo;t overwhelm the flavour. In this instance it&amp;rsquo;s paired with orange, which is classic, but there are an awful lot of options. This is also a ingredient in another recipe which I will at some point post here - cassoulet. Start three days early - if you want it for Saturday dinner, start on Wednesday night.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duck Confit with Marmalade Sauce (serves 4)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ingredients&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Four duck legs&lt;/li&gt;
+&lt;li&gt;Juniper berries&lt;/li&gt;
+&lt;li&gt;Black pepper&lt;/li&gt;
+&lt;li&gt;Half a head of garlic&lt;/li&gt;
+&lt;li&gt;150g salt&lt;/li&gt;
+&lt;li&gt;75g caster sugar&lt;/li&gt;
+&lt;li&gt;About a kilo of duck fat&lt;/li&gt;
+&lt;li&gt;Ground cinnamon&lt;/li&gt;
+&lt;li&gt;Ground allspice&lt;/li&gt;
+&lt;li&gt;Half a jar of marmalade&lt;/li&gt;
+&lt;li&gt;500ml vegetable or chicken stock&lt;/li&gt;
+&lt;li&gt;Glass dry white wine&lt;/li&gt;
+&lt;li&gt;40ml soy sauce&lt;/li&gt;
+&lt;li&gt;25ml mirin&lt;/li&gt;
+&lt;li&gt;25ml Dijon mustard&lt;/li&gt;
+&lt;li&gt;200ml freshly squeezed orange juice&lt;/li&gt;
+&lt;li&gt;One onion&lt;/li&gt;
+&lt;li&gt;50g butter&lt;/li&gt;
+&lt;li&gt;Starch granules (or for the less lazy than me, half a floury potato diced really fine)&lt;/li&gt;
+&lt;li&gt;Four handfuls of red or wild rice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Method&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So, first up, you&amp;rsquo;ll be desiccating your duck legs. Since most desiccants are not in the slightest bit tasty, the tradition here is sea salt, which (being hygroscopic) does the job excellently. During this process, we&amp;rsquo;ll be taking the opportunity to get some interesting flavours into the meat as well.&lt;/p&gt;
+
+&lt;p&gt;Dice your half head of garlic, set it aside. You&amp;rsquo;ll need it in a bit, but it&amp;rsquo;s a nice easy start, and we all like that, right? Besides, it smells awesome.&lt;/p&gt;
+
+&lt;p&gt;Get yourself a box like this:
+&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150821_204639-1-.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Important factors here: it seals, and it has the rack in the bottom to give it a bit of space underneath the meat. Arrange your duck legs artistically in the box, and then sprinkle salt (all of it), juniper berries, the caster sugar, that garlic you shredded, and lots of ground black pepper (use an actual grinder. I&amp;rsquo;m sure you don&amp;rsquo;t own the powdered stuff, but just in case&amp;hellip;).&lt;/p&gt;
+
+&lt;p&gt;Now it gets boring for a while. Seal up the box, hide it in the fridge for a couple of days. Yup, days. Blame kinetics, this is a slow process.&lt;/p&gt;
+
+&lt;p&gt;.&lt;/p&gt;
+
+&lt;p&gt;..&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Back already? Excellent. Preheat the oven to about 390K. Grab your box, which should now have a slurry of salty, sugary duck-water on the bottom, and retrieve the duck legs. If they quack, you need to leave them in a bit longer. Rinse the salt and flavourings off, and set them in a casserole dish. Needs to be a fairly tight fit, so don&amp;rsquo;t go overboard on dish diameter. Dust with cinnamon, allspice and pepper, then cover with the duck fat. You&amp;rsquo;ll need more than you think; the legs need to be completely submerged in molten fat. If you&amp;rsquo;re watching your weight, don&amp;rsquo;t worry (also, why are you here?), you won&amp;rsquo;t be eating all of it. Casserole dish needs a lid, then makes its way to the oven for about three hours.&lt;/p&gt;
+
+&lt;p&gt;For the sauce, start by heating up the marmalade, stock, wine and orange juice to a simmer. Use a whisk to stir, it helps dissolve the marmalade faster. Once the marmalade is dissolved, add the butter, soy sauce, mirin, mustard, the starch source, and the onion (diced). Raise to a boil, lower to a simmer, and reduce until you have about half a pint of fairly thick sauce. Shortly before serving, pour through a sieve into a jug, taking care not to get too much on the floor. A funnel helps here.&lt;/p&gt;
+
+&lt;p&gt;Wild rice takes about 25-30 minutes to cook, but I&amp;rsquo;m going to assume you know how to boil rice, so just start early enough and all is good.&lt;/p&gt;
+
+&lt;p&gt;Once the duck legs are sufficiently tender that a fork will pass through them with no resistance, (no, that solid bit is bone, try a different angle) extract them from the oven, recover from the fat, and place on a grill rack. Grill for about a minute, skin-side up, just to get the skin crispy. Watch carefully, because it will go black &lt;em&gt;very&lt;/em&gt; fast due to the sugar we soaked into the skin in the first step.&lt;/p&gt;
+
+&lt;p&gt;Per plate; duck leg, rice, sauce over all, plus whatever greens you choose. Swiss chard goes well, as would red cabbage.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lessons from Groundhog Day</title>
+      <link>http://jamieduerden.co.uk/post/lessons-from-groundhog-day/</link>
+      <pubDate>Sun, 23 Aug 2015 12:49:20 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/lessons-from-groundhog-day/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;The strange thing&lt;/strong&gt; about this film is that it&amp;rsquo;s worth watching repeatedly. That&amp;rsquo;s usually just the mark of a good film, but given the premise involves a man repeating a single day of his life for what appears to be several subjective decades (or perhaps centuries), there&amp;rsquo;s a certain sense of the appropriate in its revisitability.&lt;/p&gt;
+
+&lt;p&gt;On this watching, I was struck by something that I&amp;rsquo;d somehow missed the implications of before. The protagonist, on discovering that he is repeating February 2&lt;sup&gt;nd&lt;/sup&gt;, initially reacts as you might expect a rational person to do: examine his environment, assume that he is losing his sanity (this is generally more likely than magic, regardless of your situation), and finally panic. He then proceeds to act like an impulsive moron for a while before descending into depression. The flurry of subsequent suicides is maybe not the mark of a sensible person, but it is followed by a phase that finally makes use of the situation: &lt;em&gt;recursive self-improvement&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s tempting to see this as an allegory for a certain sort of childhood. You realise (generally not one morning, but over time) that time is passing and you have effects on the world. You muck around for a few years, then you start to feel trapped, you spend your teenage years wearing black and listening to awful music&amp;hellip; and then you have a choice to make.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s very straightforward to go for the easy way out. Get a degree in something that doesn&amp;rsquo;t interest you, because university is the thing to do. Get a job that you&amp;rsquo;re not all that enthused by, because being an employee is the thing to do and you need the money more than you want the time. Forty years later you retire, if you&amp;rsquo;ve earned enough, having taken few risks and experienced few failures, and spend your time playing golf or sunbathing on a beach somewhere. Maybe you buy an unreasonably fast car on credit and pretend that counts as self-worth. That sort of thing.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s not quite suicide. But it&amp;rsquo;s pretty close.&lt;/p&gt;
+
+&lt;p&gt;The alternative? Emulate Bill Murray. Once he comes to terms with the fact that he has unlimited do-overs, that he can try anything he likes and learn everything (or at least everything available in a 6000-person pre-internet town in Pennsylvania), he does. And yes, it takes him some reasonable approximation of forever, but the principle is one that&amp;rsquo;s fairly straightforward to follow. The trick is that in his case, not fearing failure is fully justified. We who inhabit a world where opportunity costs are a thing, and where there are consequences to fuckups (not to mention driving on railway tracks), have to be a little more circumspect. But that&amp;rsquo;s &amp;lsquo;a little&amp;rsquo;, not &amp;lsquo;overwhelmingly&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t been exactly innocent of this myself. Decision paralysis, akrasia and fear of failure are more frequently things I notice after I&amp;rsquo;ve already made a decision, rather than having the opportunity to address them as they happen.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f791f9eec379e6cb1a7e6c8732f2101d:n&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f791f9eec379e6cb1a7e6c8732f2101d:n&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to say &amp;ldquo;go out and attempt things&amp;rdquo;. It doesn&amp;rsquo;t cost me anything to say that, or for you to read it and think &amp;ldquo;that&amp;rsquo;s a great idea, I should try to do that at some point&amp;rdquo;. That doesn&amp;rsquo;t make it false. If you want to learn the piano, go find yourself a piano teacher. If you want to learn to code, pick a language and get started with &lt;a href=&#34;https://www.codecademy.com/learn&#34;&gt;Codecademy&lt;/a&gt; - although it&amp;rsquo;s faster to start your own project rather than just working through their examples. Anything is more productive (not to mention more enlivening and enjoyable) than sitting in your pyjamas watching Netflix for three days straight. Even the simple stuff. Never been skydiving? That&amp;rsquo;s £150 and one day of your time. Not exactly a hike to Mordor.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re not immortal. Yet. Every day you don&amp;rsquo;t start something you want to do is a day less time you have to get it done, and just that little bit harder to learn something new.&lt;/p&gt;
+
+&lt;p&gt;Where are your &lt;a href=&#34;http://www.getrichslowly.org/blog/2009/03/17/the-psychology-of-passive-barriers-why-your-friends-dont-save-money-eat-healthier-or-clean-their-garages/&#34;&gt;barriers&lt;/a&gt;?&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:f791f9eec379e6cb1a7e6c8732f2101d:n&#34;&gt;Brienne Yudkowsky has some helpful ways to begin to address this problem &lt;a href=&#34;https://www.youtube.com/watch?v=x1Sl7qwnKO4&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=Yd6KR6nlRyU&#34;&gt;here&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f791f9eec379e6cb1a7e6c8732f2101d:n&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Book Review: Ikigai - Sebastian Marshall</title>
+      <link>http://jamieduerden.co.uk/post/book-review-ikigai/</link>
+      <pubDate>Sat, 22 Aug 2015 12:50:50 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/book-review-ikigai/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s very rare&lt;/strong&gt; for me to encounter a book which affects me enough that I have to put it down every few pages, think about it, and take notes. This is one of those rare ones. It&amp;rsquo;s certainly not for everyone, but if you&amp;rsquo;re looking for inspiration and for encouragement in being more effective, you&amp;rsquo;ll start getting your fix about half a chapter in - and it doesn&amp;rsquo;t let up.&lt;/p&gt;
+
+&lt;p&gt;Marshall sets out his ambition to become &amp;lsquo;the finest strategist of a generation&amp;rsquo;, and then goes on to reveal how, precisely, he believes it will be possible for him to achieve this. From the wrong station in Japan to cafés and boardrooms across Europe, we are made privy to his introspection and planning.&lt;/p&gt;
+
+&lt;p&gt;This starts out with a list, which I paraphrase below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Develop your own ethical system&lt;/li&gt;
+&lt;li&gt;Make good friends, advisors and mentors on purpose&lt;/li&gt;
+&lt;li&gt;Learn universally useful skills&lt;/li&gt;
+&lt;li&gt;Earn a few credentials&lt;/li&gt;
+&lt;li&gt;Get some money in the bank, and good credit reputation&lt;/li&gt;
+&lt;li&gt;Study history to learn what&amp;rsquo;s possible&lt;/li&gt;
+&lt;li&gt;Establish good habits rather than relying on willpower&lt;/li&gt;
+&lt;li&gt;Become very fit and healthy&lt;/li&gt;
+&lt;li&gt;Teach yourself how to think&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There&amp;rsquo;s no particular order to these, he just calls them &amp;lsquo;useful things to be doing&amp;rsquo;, and I certainly agree with most of them. I can&amp;rsquo;t see a point to having an ethical system (even in the context of the book, it seems relevant only to his own particular goals). He also thinks having children is a worthwhile use of life, so I&amp;rsquo;m not inclined to listen to &lt;em&gt;everything&lt;/em&gt; he says.&lt;/p&gt;
+
+&lt;p&gt;One consistent theme throughout the book is studying great men and women to see what they did that made them effective. Their exact actions are frequently not the relevant factor; behaviours and character traits, especially as reported by those who followed and served them, are more regularly concentrated upon. This makes sense in context, although I found his emphasis on the Sengoku Period of Japan to be less helpful than it might have been, given my complete ignorance of Japanese history and culture.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:bd1628684540b5f59528e7f65f22c5b0:n&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:bd1628684540b5f59528e7f65f22c5b0:n&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The one insight which affected me most actually comes very near the beginning of the book, as he talks about comparing oneself to a peer group or to one&amp;rsquo;s own ambition. There is what I have long considered a failure mode where people compare themselves only to where they expected to be, or to their local peers such as schoolmates and siblings, and conclude that actually they&amp;rsquo;re doing acceptably well just because they compare favourably to that particular low bar. There&amp;rsquo;s an aversion among many, which Marshall points out (I&amp;rsquo;m somewhat glad to discover I&amp;rsquo;ve not been imagining it) to comparing themselves to where they &lt;em&gt;could&lt;/em&gt; be, because that invariably rearranges one&amp;rsquo;s mental map such that one is &amp;ldquo;at the bottom of a much larger mountain, rather than high up on a small one&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;rsquo;t matter that you&amp;rsquo;re doing better than your school friends, or &amp;lsquo;people your age&amp;rsquo;. They&amp;rsquo;re not the benchmark. Alexander of Macedon had conquered Europe, North Africa, and most of the way across Asia by the time he was thirty. Albert Einstein published his paper on Special Relativity at age 26. What did you do last year?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve long been fighting to reconcile my own feelings - that I should be doing considerably more, even though I don&amp;rsquo;t know how - with the &amp;lsquo;reassuring&amp;rsquo; common attitude that these people were somehow special superhumans, and thus it&amp;rsquo;s OK not to aspire to achieve so much. Ikigai helped me realise that this is a false battle; it&amp;rsquo;s &lt;strong&gt;not&lt;/strong&gt; OK.&lt;/p&gt;
+
+&lt;p&gt;I thoroughly recommend this book, &lt;em&gt;iff&lt;/em&gt; you&amp;rsquo;re willing to put the effort into it, and to make the mental adjustments necessary to internalise what it says. You&amp;rsquo;ll know you&amp;rsquo;re doing it right when you feel like ineffective crap and can&amp;rsquo;t help but want to do something about that.&lt;/p&gt;
+
+&lt;p&gt;You do have to remember that the book is compiled and edited from the author&amp;rsquo;s blog posts over the course of some considerable time. The style varies as the book goes on, and the order of chapters very occasionally feels slightly &amp;lsquo;off&amp;rsquo;; presumably because the posts themselves were not in a strict order of ideas to begin with.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:bd1628684540b5f59528e7f65f22c5b0:n&#34;&gt;I&amp;rsquo;m still not interested, but it certainly seems like something I ought to know about, so I&amp;rsquo;ll be looking into that.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:bd1628684540b5f59528e7f65f22c5b0:n&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project Euler</title>
+      <link>http://jamieduerden.co.uk/post/project-euler/</link>
+      <pubDate>Fri, 14 Aug 2015 19:37:53 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/project-euler/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;If you&amp;rsquo;re considering&lt;/strong&gt; teaching yourself to code, or even just to code in a new language, I heartily recommend you take a look at &lt;a href=&#34;http://projecteuler.net&#34;&gt;Project Euler&lt;/a&gt;. It&amp;rsquo;s essentially a collection of user-submitted maths questions, sufficiently tricky as to require solving by a computer, but sufficiently unintensive that programs capable of solving them can run in a reasonable time.&lt;/p&gt;
+
+&lt;p&gt;The mathematics themselves are done by your code, but the real challenge lies in thinking through the necessary algorithms and program flow such that you can build something which fulfils the requirements. It demands that you understand the problem, the nature of the solution, and your language of choice well enough to communicate the requirements to the computer.&lt;/p&gt;
+
+&lt;p&gt;Some are fast; a flash of insight and a couple of minutes writing and you have the answer. Some can take hours or days of plotting out and trying different avenues of attack, especially at the higher difficulty levels.&lt;/p&gt;
+
+&lt;p&gt;I shan&amp;rsquo;t show my work here, as it would defeat the point, but I encourage you to attempt a few problems. As brain exercise goes, it certainly beats Sudoku.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Pork Fillet &amp; Figs</title>
+      <link>http://jamieduerden.co.uk/post/food-wednesday-pork-fillet/</link>
+      <pubDate>Thu, 13 Aug 2015 23:38:41 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/food-wednesday-pork-fillet/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This week&lt;/strong&gt;, someone else&amp;rsquo;s hands were doing the cooking, so I could and did remember to take photographs. Credit due Fiona for this one; we don&amp;rsquo;t know where the recipe originated. Lateness due to difficulties in actually retrieving said photographs.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pork Fillet with Figs and Tallegio - Serves three. Two if you&amp;rsquo;re hungry. Four if you&amp;rsquo;re small.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ingredients&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;One whole pork fillet&lt;/li&gt;
+&lt;li&gt;6-8 dried figs&lt;/li&gt;
+&lt;li&gt;~125ml dry sherry&lt;/li&gt;
+&lt;li&gt;150g Tallegio D.O.P &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4465ac19053e1c1bf2e86c86c9652492:n&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:4465ac19053e1c1bf2e86c86c9652492:n&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;A dozen or so sprigs fresh rosemary&lt;/li&gt;
+&lt;li&gt;Salt&lt;/li&gt;
+&lt;li&gt;Pepper&lt;/li&gt;
+&lt;li&gt;Courgettes&lt;/li&gt;
+&lt;li&gt;Butter&lt;/li&gt;
+&lt;li&gt;Red wild rice&lt;/li&gt;
+&lt;li&gt;Cream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Method&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;To start off, you want to get the figs drunk. They&amp;rsquo;re parched, it&amp;rsquo;s only kind. Sit them in a bowl, covered with the sherry, for at least an hour or so before you start doing anything else.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_170449.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Take your pork fillet, and lay it on a wooden or plastic board (not glass, unless you like eating glass shards), with clingfilm between it and the board. Slit it down the centre about &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; of the way through, lay it out flat, then cover with clingfilm and beat it with a meat mallet until about 8-10mm thick and fully tenderised.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_170505.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dice your tallegio into ~12mm blocks. Discard the orange skin, it&amp;rsquo;s not especially tasty.&lt;/p&gt;
+
+&lt;p&gt;Extract your figs from the sherry and remove their stalks. This should open up a handy cavity, into each of which you need to press a block of tallegio. Lay your stuffed figs in a line down the long axis of the flattened pork, tight against each other. Do remember to remove the clingfilm, it melts and smokes in the oven and doesn&amp;rsquo;t add much to the flavour. Dash of salt and a fair bit of pepper, then roll the pork around the figs and tie it up with string.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_170635.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In an ovenproof dish, lay all the rosemary sprigs in a line, then place the pork on top of them. Pour the sherry which the figs were soaking in over the pork, then send the whole lot into the oven at 453K.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_171106.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll have quite a bit of tallegio left over. That goes into a saucepan, along with about 30g of butter and 3tbsp of cream, plus liberal pepper and a little salt. Low heat, melt and stir until homogeneous liquid is obtained.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_171404.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rice goes in a pan, covered, with water. About eighteen minutes should do it. Courgettes can either be steamed, as here, or fried in butter. Either way they take moments.&lt;/p&gt;
+
+&lt;p&gt;Once the meat is done, pull from the oven and allow to rest while you give each plate a portion of rice and courgettes. Slice thickly, distribute, and pour the dairy over.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_180020.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nom.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:4465ac19053e1c1bf2e86c86c9652492:n&#34;&gt;This is a soft, moderately strong-smelling cheese. Substitute accordingly if necessary. If you like blue cheese, Stilton might work well.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:4465ac19053e1c1bf2e86c86c9652492:n&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Me A Haskell</title>
+      <link>http://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
+      <pubDate>Tue, 11 Aug 2015 22:53:53 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Without much&lt;/strong&gt; reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &amp;lsquo;moderate&amp;rsquo; competence. Won&amp;rsquo;t be winning any prizes for code quality, but it&amp;rsquo;s a learning process, and I&amp;rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.&lt;/p&gt;
+
+&lt;p&gt;There aren&amp;rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from &lt;a href=&#34;http://sandymaguire.me&#34;&gt;Sandy&lt;/a&gt; I went for Haskell.&lt;/p&gt;
+
+&lt;p&gt;That was yesterday.&lt;/p&gt;
+
+&lt;p&gt;Today I passed my own FizzBuzz test: without using StackOverflow (or similar), from the documentation and recommended starting information&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; alone, write the 3&amp;amp;5 FizzBuzz program in that language. It&amp;rsquo;s not that hard, but it&amp;rsquo;s a little more involved than &amp;lsquo;hello world&amp;rsquo;, and helps with the structure and idioms of a new language.&lt;/p&gt;
+
+&lt;p&gt;Commented for your convenience:&lt;/p&gt;
+
+&lt;pre data-line-numbers class=&#34;line-numbers language-haskell&#34;&gt;
+&lt;code class=&#34;language-haskell&#34;&gt;
+fizz n = [ n | n &lt;- [0..n], n `mod` 3 == 0] -- Find all the numbers between 0 and n divisible by three
+buzz n = [ n | n &lt;- [0..n], n `mod` 5 == 0] -- Find all the numbers between 0 and n divisible by five
+
+genFizzBuzz n
+    | n == 0 = show n -- If it&#39;s zero, show zero. This is to fix a peculiarity I found where apparently zero is divisible by everything and thus gets a FizzBuzz.
+    | n `elem` fizz n &amp;&amp; n `elem` buzz n = &#34;FizzBuzz&#34;
+    | n `elem` fizz n = &#34;Fizz&#34;
+    | n `elem` buzz n = &#34;Buzz&#34;
+    | otherwise = show n
+
+fizzy n = [genFizzBuzz x | x &lt;- [0..n]] -- This just lets me set the range to have it work in.
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Crappy code, I know. I&amp;rsquo;m sure there are smaller, neater ways of achieving the same thing, but it works and I&amp;rsquo;m pleased. Eight working hours from &amp;lsquo;I should learn this language&amp;rsquo; to this stage via getting the compiler to work on Windows is a new record.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;In this case &lt;a href=&#34;http://learnyouahaskell.com/&#34;&gt;Learn You A Haskell&lt;/a&gt;. I&amp;rsquo;ve skimmed the whole thing, and am now reading in full. It&amp;rsquo;s not as bizarre as the title implies, unlike &lt;a href=&#34;http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html&#34;&gt;Why&amp;rsquo;s Poignant Guide To Ruby&lt;/a&gt; which is EXACTLY as weird as it sounds.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:95f8786afe1ccbb4e21d3c2667f90d3c:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Pulled Pork &#39;Arancini&#39;</title>
+      <link>http://jamieduerden.co.uk/post/food-wednesday-pulled-pork-arancini/</link>
+      <pubDate>Wed, 05 Aug 2015 21:54:38 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/food-wednesday-pulled-pork-arancini/</guid>
+      <description>&lt;p&gt;This is one of those recipes where I can sort of see how it came into being, but it&amp;rsquo;s a long way from its starting points. The rice preparation is sushi base, the pulled pork goes well in sandwiches, arancini are Italian. Culturally horrifying? Sure. So sue me, it tastes great. Anyone not convinced about bacon, halloumi, mango and black pepper, just try it - it&amp;rsquo;s a great salad all by itself.&lt;/p&gt;
+
+&lt;p&gt;This one happens to be gluten free, but if you want to sub out the cornflakes for breadcrumbs or panko, it&amp;rsquo;ll work just fine. I suppose you could also batter them, if you wanted something more portable.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pulled Pork Arancini (sort of &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:65228f0be4edb2403bf23f1946799c90:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:65228f0be4edb2403bf23f1946799c90:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;) - Serves 6&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ingredients&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;For the arancini:
+800g boned pork shoulder
+100g diced fennel
+1 chopped celery stick
+300g sushi or risotto rice&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:65228f0be4edb2403bf23f1946799c90:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:65228f0be4edb2403bf23f1946799c90:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+2 tbsp mirin
+2 tbsp rice vinegar
+2 tbsp caster sugar
+4 tbsp liquid honey
+Handful of cloves
+Water
+1 tsp monosodium glutamate
+Salt
+Pepper
+Several handfuls of crushed cornflakes&lt;/p&gt;
+
+&lt;p&gt;For the sauce:
+2 tbsp soy sauce
+1 tbsp balsamic vinegar
+100g brown sugar
+250ml draught Guinness
+70g tomato purée
+1 finely-diced chilli&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:65228f0be4edb2403bf23f1946799c90:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:65228f0be4edb2403bf23f1946799c90:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;To serve:
+6 rashers back bacon
+1 ripe mango
+300g halloumi in 8mm slices&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Method&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Place the pork shoulder in a small casserole. Add the honey, the fennel, the celery and the cloves, then top up with water to just below the top of the pork. With the lid on, cook for four hours at ~450K, turning over around every 45 minutes.&lt;/p&gt;
+
+&lt;p&gt;Around an hour before the pork is due to finish, set your rice to simmer, covered, under its own volume of water. In a separate saucepan, mix the mirin, rice vinegar, caster sugar, MSG and 2tsp salt. Simmer and stir until everything has dissolved, then leave to cool to room temperature.&lt;/p&gt;
+
+&lt;p&gt;Once the rice has absorbed all the water, add the mirin mixture and stir it through. Abandon this lot for now, it needs to cool down.&lt;/p&gt;
+
+&lt;p&gt;You should have some very tender pork by this point, so pull it out of the oven and onto a board. No rush, let it rest for a few minutes. The pan that had the mirin in it is now empty, so the remaining honey and water (there shouldn&amp;rsquo;t be much) goes in there, through a sieve to catch the solids. You don&amp;rsquo;t need the plant bits, chuck &amp;lsquo;em. Follow that with the rest of the sauce ingredients, plus a good measure of black pepper. Bring to a boil, then turn down so it&amp;rsquo;s simmering. Don&amp;rsquo;t cover, this needs to reduce a long way. You&amp;rsquo;ll know it&amp;rsquo;s done when it behaves like honey.&lt;/p&gt;
+
+&lt;p&gt;Grab yourself a couple of forks, and shred that pork. Should be an easy job if you left it in the oven long enough. Keep pulling it apart, working along the grain, until it&amp;rsquo;s all ribbons. The sauce won&amp;rsquo;t be done yet, but rescue a tablespoon of it and mix up that, the shredded pork, and the rice into one sticky mass. Divide this into six (or however many you feel like, really; just beware that too small and they&amp;rsquo;ll be nasty and hard, too big and they won&amp;rsquo;t fry properly). Put them on a tray and leave to set.&lt;/p&gt;
+
+&lt;p&gt;Start heating up your deep fryer, and throw your bacon in a large frying pan with the halloumi and some paprika. Roll each of the pork balls in the crushed cornflakes, then once the oil is very hot deep fry them until golden brown.&lt;/p&gt;
+
+&lt;p&gt;Plate: Chopped bacon, halloumi, a slice of the mango, and a good spoonful of the reduction. Liberal grind of black pepper over the mango.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:65228f0be4edb2403bf23f1946799c90:1&#34;&gt;I suspect every culture that inspired a piece of this would be deeply upset with me. Especially the pigs.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:65228f0be4edb2403bf23f1946799c90:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:65228f0be4edb2403bf23f1946799c90:2&#34;&gt;Short grained, sticky when cooked.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:65228f0be4edb2403bf23f1946799c90:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:65228f0be4edb2403bf23f1946799c90:3&#34;&gt;Variety to taste - how hot do you like your food?
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:65228f0be4edb2403bf23f1946799c90:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-Cylinder Engines (2)</title>
+      <link>http://jamieduerden.co.uk/post/single-cylinder-engines-2/</link>
+      <pubDate>Tue, 04 Aug 2015 12:51:26 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/single-cylinder-engines-2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This weekend&lt;/strong&gt;, I thought it would be sensible to attempt to finish what I&amp;rsquo;d started with the broken petrol engine.&lt;/p&gt;
+
+&lt;p&gt;Having thoroughly de-greased and cleaned all the components, then rinsed them in WD-40 and left to dry for a week, I was hoping to see some improvement.
+&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_145027.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reassembly went reasonably well.
+&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_145118-1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_151638.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_152310-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It does turn over a great deal more easily; the sound of well-oiled machinery rather than grinding metal. However&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;rsquo;t work. I suppose that would have been too much to hope for a first try. So far, I&amp;rsquo;ve determined that the spark plug works and has a suitable gap (compared with a spare), that the fuel line and air intake are free of debris, and that all components are where they need to be. Fuel placed in the &amp;lsquo;cup&amp;rsquo; of the fuel intake is taken in, but not ignited.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a little puzzled, so it&amp;rsquo;s back to research for now.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Addendum 14/08/15: After some research and further examining the parts, it looks like all the gaskets and seals need replacing. This engine isn&amp;rsquo;t made any more, and spare parts seem few and far between, so I am unlikely to be able to fix it. Especially as it didn&amp;rsquo;t work before I started.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve learned a great deal, though, so I consider this a partial success.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Satchelmaking (1/?)</title>
+      <link>http://jamieduerden.co.uk/post/satchelmaking/</link>
+      <pubDate>Fri, 31 Jul 2015 18:20:49 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/satchelmaking/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Today&amp;rsquo;s new idea&lt;/strong&gt;, given as a surprise by a friend, is a work satchel, suited to carrying both luncheon and tools. The spec was to be able to carry a lunchbox, a water bottle, and a selection of hand tools, plus snacks and possibly a notepad. It didn&amp;rsquo;t have to carry a laptop, which means smaller pockets and less weight overall.&lt;/p&gt;
+
+&lt;p&gt;I generated a five-minute sketch to start with:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/satchelsketch.jpg&#34; alt=&#34;First Sketch&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then switched to SketchUp to refine the idea:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/Satchel-Top--small-v1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/Satchel-Overall--small-v1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apologies for the huge number of dimensions.&lt;/p&gt;
+
+&lt;p&gt;Current design is twin semi-independent front sections, sharing a top flap so they appear as joined pockets when it&amp;rsquo;s down. The left, as seen in the first SketchUp drawing, only opens at the front, and will have straps to hold the lunchbox, an elasticated pocket to allow access to the water bottle from both inside and outside the compartment, and some pockets on its flap for cutlery, water purification tablets, matches, hexamine and so on.&lt;/p&gt;
+
+&lt;p&gt;The right pocket currently doesn&amp;rsquo;t have a layout, but as shown will devolve completely to its net, allowing it to lie flat and display the tools inside. I&amp;rsquo;m undecided on elastic straps vs leather straps with press studs as tool retainers; that&amp;rsquo;ll probably be an aesthetic choice in the end.&lt;/p&gt;
+
+&lt;p&gt;This will be my first &amp;lsquo;wearable&amp;rsquo; item in a while, and my first ever leatherworking project. We shall see how that goes, but I&amp;rsquo;m fairly confident.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow, the list of tools that need to be included, plus their sizes, should be coming to me. I&amp;rsquo;ll be able to create a layout, then a cloth/cardboard mockup. This shouldn&amp;rsquo;t be a long project, so I&amp;rsquo;ll post updates when I do anything significant on it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Update: The person for whom this was intended no longer needs the result; I have no particular need for it either, so I&amp;rsquo;ve put this on hold for the time being.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food Wednesday: Veal and Sweet Potato Pie</title>
+      <link>http://jamieduerden.co.uk/post/food-wednesday/</link>
+      <pubDate>Wed, 29 Jul 2015 19:50:57 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/food-wednesday/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ve decided&lt;/strong&gt; to do recipes on Wednesdays, because routine is comforting and food is important. Or the other way around, I can never remember.&lt;/p&gt;
+
+&lt;p&gt;It was wet, cold, and dark all day today, so despite it being Summer I thought Winter food entirely appropriate. In that spirit I hunted in the freezer, and discovered we had some veal mince. Veal, for those of you not familiar, is young beef - it&amp;rsquo;s tender and sweet, without the heavy beef flavour, much as lamb compares to hogget or mutton.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Veal and Sweet Potato Pie;&lt;/em&gt;
+&lt;em&gt;Serves 4&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ingredients&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;500g lean veal mince.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:09a14ad36fa06d99a3a8b97539907e9f:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:09a14ad36fa06d99a3a8b97539907e9f:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+75g pancetta, as lardons&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:09a14ad36fa06d99a3a8b97539907e9f:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:09a14ad36fa06d99a3a8b97539907e9f:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+150g butter.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:09a14ad36fa06d99a3a8b97539907e9f:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:09a14ad36fa06d99a3a8b97539907e9f:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+Two (2) medium onions
+Two (2) banana shallots
+Four (4) cloves garlic&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:09a14ad36fa06d99a3a8b97539907e9f:4&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:09a14ad36fa06d99a3a8b97539907e9f:4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+250ml red wine
+50ml balsamic vinegar
+Salt
+Pepper&lt;/p&gt;
+
+&lt;p&gt;Four (4) sweet potatoes
+50ml cream
+&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; wheel of Boursin&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:09a14ad36fa06d99a3a8b97539907e9f:5&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:09a14ad36fa06d99a3a8b97539907e9f:5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;
+Grating of parmesan
+50g tomato paste
+Handful of pink peppercorns
+Handful of chopped chives&lt;/p&gt;
+
+&lt;p&gt;Three (3) courgettes
+Nutmeg&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Method&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Preheat oven to 473K.&lt;/p&gt;
+
+&lt;p&gt;Throw about 50-60g of butter into a large frying pan, get it melted and bubbling.&lt;/p&gt;
+
+&lt;p&gt;Peel and chop the onions, garlic and shallots while the butter is melting; once you have bubbling butter and small chunks of alliums, introduce them to each other. It&amp;rsquo;s OK to cry at this point, but they&amp;rsquo;ll be good friends. Don&amp;rsquo;t put the lid on, we don&amp;rsquo;t want it wet.&lt;/p&gt;
+
+&lt;p&gt;While that&amp;rsquo;s all softening, peel your courgettes and slice them into ~6mm rounds. Peel the sweet potatoes, chop into rough chunks. They&amp;rsquo;re going to be mashed anyway, so it&amp;rsquo;s not so important that they all be the same, just need to be small enough to cook fast.&lt;/p&gt;
+
+&lt;p&gt;The courgettes go in a frying pan with about 40g of butter. Don&amp;rsquo;t put it on the heat yet, you&amp;rsquo;re just frontloading while the onions (remember them?) get soft and slightly browned. The sweet potatoes go in a dish with a lid and about 5mm of water on the bottom, and in the microwave on full for ten minutes.&lt;/p&gt;
+
+&lt;p&gt;Go back to your onions. They miss you. Add the veal, and break it up with a wooden spoon. It should immediately start cooking. Don&amp;rsquo;t add any liquid at this point, just ignore it all for a while, shoving it around and turning it over so it all goes brown rather than wet grey.&lt;/p&gt;
+
+&lt;p&gt;While that&amp;rsquo;s cooking, throw a party for the cream, Boursin, tomato paste, 50g of butter, and small palmful of grated parmesan to a saucepan, and get it on a low heat. Once the butter is melted, find yourself a balloon whisk and whisk it all together into a stiff reddish-orange paste. Try it, it&amp;rsquo;s yummy (but then as great cooks you&amp;rsquo;ve been tasting everything as we go anyway, right?). Add a liberal amount of salt, a few grinds of pepper, and a small handful of pink peppercorns.&lt;/p&gt;
+
+&lt;p&gt;By this point the microwave should be yelling at you, so go retrieve your sweet potato chunks. Drain off the water, and add the chunks to the pan with the cheese and tomato mixture. Whisk the whole lot until it&amp;rsquo;s smooth and mashed. If you have a potato masher this would also work, but they&amp;rsquo;re harder to clean and you already have the whisk dirty so you might as well use that.&lt;/p&gt;
+
+&lt;p&gt;The meat and alliums should be nicely browned by now, so add the balsamic vinegar, stir it through, and wait a minute until most of the wet has vanished again. Repeat with the wine; if this step doesn&amp;rsquo;t smell awesome you bought cheap wine and should check your priorities. If you drank the wine while waiting for the previous steps, that&amp;rsquo;s OK, go get another glass. This one&amp;rsquo;s for the pan, not you.&lt;/p&gt;
+
+&lt;p&gt;Add your salt and pepper to the meat pan, stir it a bit, make sure it&amp;rsquo;s not grey or soggy. If it is, leave everything and come back in a few minutes.&lt;/p&gt;
+
+&lt;p&gt;Take an ovenproof dish, start by filling it with the meat mixture. Flatten it out, top it with the sweet potato mixture. Stroke it all flat with a fork so you get nice furrows. Sweet potatoes are wet, so they won&amp;rsquo;t go brown and crunchy on the tips like &amp;lsquo;normal&amp;rsquo; mash does. Sprinkle the chives on top, put it all in the oven. Set an alarm for twenty minutes.&lt;/p&gt;
+
+&lt;p&gt;While you&amp;rsquo;re waiting for the pie to finish cooking, conjure some heat under those courgettes. The butter will melt, they&amp;rsquo;ll sizzle, they&amp;rsquo;ll go white and then golden brown on the lower surface. Good times. Grate some nutmeg over them for bonus tasties, plus a little powdered salt. Flip them over, repeat the process. Lower the heat once they&amp;rsquo;re done, let them rest a bit.&lt;/p&gt;
+
+&lt;p&gt;When the alarm startles you, pull the pie from the oven. Plate up: courgettes (slotted spoon, you don&amp;rsquo;t want the remaining molten butter), plus a good portion of pie.&lt;/p&gt;
+
+&lt;p&gt;This is unashamedly nursery food. Enjoy.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:09a14ad36fa06d99a3a8b97539907e9f:1&#34;&gt;I&amp;rsquo;d say organic, but generally the difference isn&amp;rsquo;t that significant. Lean is more important.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:09a14ad36fa06d99a3a8b97539907e9f:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:09a14ad36fa06d99a3a8b97539907e9f:2&#34;&gt;~10mm cubes. Don&amp;rsquo;t get the thin sliced stuff, that won&amp;rsquo;t work. I guess you could use bacon bits if that&amp;rsquo;s what you have.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:09a14ad36fa06d99a3a8b97539907e9f:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:09a14ad36fa06d99a3a8b97539907e9f:3&#34;&gt;Yes, all of it. Don&amp;rsquo;t argue, dairy is good for you. Eat half a portion if you&amp;rsquo;re worried about calories. Also, unsalted. We&amp;rsquo;ll be adding salt later.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:09a14ad36fa06d99a3a8b97539907e9f:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:09a14ad36fa06d99a3a8b97539907e9f:4&#34;&gt;No, garlic powder will &lt;strong&gt;not&lt;/strong&gt; do as a substitute.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:09a14ad36fa06d99a3a8b97539907e9f:4&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:09a14ad36fa06d99a3a8b97539907e9f:5&#34;&gt;Garlic cream cheese. Could also use garlic, herbs, and cream cheese, but why be more complicated than necessary?
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:09a14ad36fa06d99a3a8b97539907e9f:5&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Logos and Layouts</title>
+      <link>http://jamieduerden.co.uk/post/logos-and-layouts/</link>
+      <pubDate>Mon, 27 Jul 2015 21:34:58 UTC</pubDate>
+      
+      <guid>http://jamieduerden.co.uk/post/logos-and-layouts/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not&lt;/strong&gt; extensively trained in design principles; I should be, and will be addressing that deficiency at some point in the next year, but currently that sort of thing is all a bit hit and miss.&lt;/p&gt;
+
+&lt;p&gt;I approached a friend&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:432fa841bfe16dbe382962e752b23982:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:432fa841bfe16dbe382962e752b23982:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, who principally works in WordPress but has some additional experience in this area; he gave me some pointers on reducing the &amp;lsquo;blank&amp;rsquo; nature of the main site as a starting point. The background image&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:432fa841bfe16dbe382962e752b23982:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:432fa841bfe16dbe382962e752b23982:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;  I&amp;rsquo;ve cropped and edited slightly to use as the banner here.&lt;/p&gt;
+
+&lt;p&gt;The main site now has a page with a contact form; this is stage one of something I feel quite necessary. This contact form, through the magic of JS&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:432fa841bfe16dbe382962e752b23982:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:432fa841bfe16dbe382962e752b23982:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, will (eventually) encrypt anything put in it with my public key, and send it directly to my email address. This should make securely contacting me trivial, even for those people for whom setting up Enigmail would be a challenge too far. For now it&amp;rsquo;s just a contact form; I&amp;rsquo;m still configuring OpenPGPJS.&lt;/p&gt;
+
+&lt;p&gt;Responsiveness has improved dramatically; in fact, today is the first time I&amp;rsquo;d say it works (approximately) as intended on mobile.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:432fa841bfe16dbe382962e752b23982:1&#34;&gt;Harry, who can be found &lt;a href=&#34;http://www.harryfielder.com/&#34;&gt;here&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:432fa841bfe16dbe382962e752b23982:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:432fa841bfe16dbe382962e752b23982:2&#34;&gt;With thanks to &lt;a href=&#34;https://unsplash.com/&#34;&gt;Unsplash&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:432fa841bfe16dbe382962e752b23982:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:432fa841bfe16dbe382962e752b23982:3&#34;&gt;OpenPGPJS can be found &lt;a href=&#34;https://github.com/openpgpjs&#34;&gt;here&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:432fa841bfe16dbe382962e752b23982:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
