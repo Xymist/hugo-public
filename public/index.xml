@@ -7,7 +7,64 @@
     <language>en-gb</language>
     
     
-    <updated>Wed, 30 Mar 2016 16:18:26 BST</updated>
+    <updated>Thu, 19 May 2016 13:20:12 BST</updated>
+    
+    <item>
+      <title>Surprisingly Long Timescales</title>
+      <link>https://jamieduerden.co.uk/post/surprisingly-long-timescales/</link>
+      <pubDate>Thu, 19 May 2016 13:20:12 BST</pubDate>
+      
+      <guid>https://jamieduerden.co.uk/post/surprisingly-long-timescales/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;It has been&lt;/strong&gt; quite some time since I last wrote any content for this blog. I&amp;rsquo;ve been meaning to (the stack of article ideas and &amp;lsquo;TODO:&amp;rsquo; notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;https://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;https://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It&amp;rsquo;s still not as heavily syntactically-sugared as I&amp;rsquo;d like, but it&amp;rsquo;s clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare.&lt;/p&gt;
+
+&lt;p&gt;As a first pass, I&amp;rsquo;ve moved both the site and the blog over to &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it&amp;rsquo;s a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don&amp;rsquo;t like JavaScript very much. I have also dropped Nginx in favour of &lt;a href=&#34;https://caddyserver.com/&#34;&gt;Caddy&lt;/a&gt;; not because I have anything against Nginx (I&amp;rsquo;m still using it for my other projects) but because it too is written in Go, it&amp;rsquo;s small and simple to configure, and I wanted to test out some of its more cutting edge features, in particular the auto-SSL function which leverages LetsEncrypt&amp;rsquo;s handy API to acquire a valid certificate on first startup. That went perfectly, so gone are the days of anyone having the slightest excuse for a self-signed (or absent!) certificate. I&amp;rsquo;ve seen a slight reduction in server resource usage into the bargain, which while almost irrelevant on a site this size bodes well for scalability.&lt;/p&gt;
+
+&lt;p&gt;In case anyone is interested, the difference between setting up Nginx and setting up Caddy is this:
+&lt;strong&gt;Nginx&lt;/strong&gt; (After having created, concatenated and installed an SSL certificate from elsewhere)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;server {
+        listen 80 default_server;
+        server_name yourdomain.com www.yourdomain.com;
+        return 301 https://$server_name$request_uri;
+}       #This redirects all insecure traffic via https.
+
+server {
+        listen   443;
+
+        ssl    on;
+        ssl_certificate    /etc/ssl/certs/yourdomain.crt;
+        ssl_certificate_key    /etc/ssl/private/yourdomain.key;
+
+        root /var/www/yoursitename/public_html/;
+
+        index index.html index.htm;
+        server_name yourdomain.com www.yourdomain.com;
+
+        location / {
+                try_files $uri $uri/ /index.html;
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Caddy&lt;/strong&gt; (Without doing much of anything else apart from importing Caddy and the Hugo site)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jamieduerden.co.uk {
+    gzip
+    root public
+    basicauth /admin #USER# #PASS#
+    hugo
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&amp;rsquo;ve taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That&amp;rsquo;s somewhere between vanity and marketing, I think.&lt;/p&gt;
+
+&lt;p&gt;Mucking around with websites aside, I do feel as if I have been slacking in my day to day life enrichment. Not enough shooting, cooking, or anything much else other than working. Good for my CV, not so good for my soul (metaphorically speaking; we don&amp;rsquo;t actually have those). I&amp;rsquo;ll be attempting to address this problem, and writing up the results here. It&amp;rsquo;s sort of a two birds, one stone approach.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Sloggit</title>
@@ -28,26 +85,6 @@
       <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;https://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, until I can think of a better one.&lt;/p&gt;
 
 &lt;p&gt;For the moment there are no caches involved, thankfully.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Daft Software Names!</title>
-      <link>https://jamieduerden.co.uk/post/hello-hugo/</link>
-      <pubDate>Fri, 18 Mar 2016 00:58:10 UTC</pubDate>
-      
-      <guid>https://jamieduerden.co.uk/post/hello-hugo/</guid>
-      <description>&lt;p&gt;Following my successful move to new hosting, there&amp;rsquo;s been a bit of a hiatus in my blogging. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;https://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;https://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It&amp;rsquo;s still not as heavily syntactically-sugared as I&amp;rsquo;d like, but it&amp;rsquo;s clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare.&lt;/p&gt;
-
-&lt;p&gt;As a first pass, I&amp;rsquo;ve moved both the site and the blog over to &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it&amp;rsquo;s a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don&amp;rsquo;t like JavaScript very much.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That&amp;rsquo;s somewhere between vanity and marketing, I think&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re seeing this, it worked, so that&amp;rsquo;s a decent start. As a bonus, the whole thing ought to be a little bit faster, though it&amp;rsquo;s not really big enough for that to be a concern.&lt;/p&gt;
 </description>
     </item>
     

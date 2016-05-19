@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Golang on Not So Fungible </title>
+      <title>Hobbies on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://jamieduerden.co.uk/tags/golang/</link>
+    <link>https://jamieduerden.co.uk/tags/hobbies/</link>
     <language>en-gb</language>
     
     
@@ -63,18 +63,6 @@ server {
 &lt;p&gt;I&amp;rsquo;ve taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That&amp;rsquo;s somewhere between vanity and marketing, I think.&lt;/p&gt;
 
 &lt;p&gt;Mucking around with websites aside, I do feel as if I have been slacking in my day to day life enrichment. Not enough shooting, cooking, or anything much else other than working. Good for my CV, not so good for my soul (metaphorically speaking; we don&amp;rsquo;t actually have those). I&amp;rsquo;ll be attempting to address this problem, and writing up the results here. It&amp;rsquo;s sort of a two birds, one stone approach.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sloggit</title>
-      <link>https://jamieduerden.co.uk/post/sloggit/</link>
-      <pubDate>Wed, 30 Mar 2016 16:16:18 BST</pubDate>
-      
-      <guid>https://jamieduerden.co.uk/post/sloggit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;https://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, until I can think of a better one.&lt;/p&gt;
-
-&lt;p&gt;For the moment there are no caches involved, thankfully.&lt;/p&gt;
 </description>
     </item>
     
