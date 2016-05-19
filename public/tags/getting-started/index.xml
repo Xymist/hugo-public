@@ -3,7 +3,7 @@
   <channel>
       <title>Getting Started on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://jamieduerden.co.uk/tags/getting-started/</link>
+    <link>https://jamieduerden.co.uk/tags/getting-started/</link>
     <language>en-gb</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Hello, World!</title>
-      <link>http://jamieduerden.co.uk/post/hello-world/</link>
+      <link>https://jamieduerden.co.uk/post/hello-world/</link>
       <pubDate>Fri, 03 Jul 2015 14:38:48 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/hello-world/</guid>
+      <guid>https://jamieduerden.co.uk/post/hello-world/</guid>
       <description>&lt;p&gt;Not exactly original, as titles go, but hey, if the hat fits&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;That you made it here shows a scintilla of imagination, given that it&amp;rsquo;s not linked from the main site. That or you&amp;rsquo;re very curious and randomly enter things into your address bar.&lt;/p&gt;

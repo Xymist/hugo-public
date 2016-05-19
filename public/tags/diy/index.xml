@@ -3,7 +3,7 @@
   <channel>
       <title>Diy on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://jamieduerden.co.uk/tags/diy/</link>
+    <link>https://jamieduerden.co.uk/tags/diy/</link>
     <language>en-gb</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Finally moving home</title>
-      <link>http://jamieduerden.co.uk/post/finally-moved/</link>
+      <link>https://jamieduerden.co.uk/post/finally-moved/</link>
       <pubDate>Mon, 21 Dec 2015 22:31:39 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/finally-moved/</guid>
+      <guid>https://jamieduerden.co.uk/post/finally-moved/</guid>
       <description>&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ve been meaning&lt;/strong&gt; for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.&lt;/p&gt;
 
 &lt;p&gt;Along the way, I managed to:&lt;/p&gt;
@@ -360,20 +360,20 @@ rvm use 2.2
     
     <item>
       <title>Satchelmaking (1/?)</title>
-      <link>http://jamieduerden.co.uk/post/satchelmaking/</link>
+      <link>https://jamieduerden.co.uk/post/satchelmaking/</link>
       <pubDate>Fri, 31 Jul 2015 18:20:49 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/satchelmaking/</guid>
+      <guid>https://jamieduerden.co.uk/post/satchelmaking/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Today&amp;rsquo;s new idea&lt;/strong&gt;, given as a surprise by a friend, is a work satchel, suited to carrying both luncheon and tools. The spec was to be able to carry a lunchbox, a water bottle, and a selection of hand tools, plus snacks and possibly a notepad. It didn&amp;rsquo;t have to carry a laptop, which means smaller pockets and less weight overall.&lt;/p&gt;
 
 &lt;p&gt;I generated a five-minute sketch to start with:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/satchelsketch.jpg&#34; alt=&#34;First Sketch&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/07/satchelsketch.jpg&#34; alt=&#34;First Sketch&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then switched to SketchUp to refine the idea:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/Satchel-Top--small-v1.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/Satchel-Overall--small-v1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/07/Satchel-Top--small-v1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/07/Satchel-Overall--small-v1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Apologies for the huge number of dimensions.&lt;/p&gt;
 
@@ -393,10 +393,10 @@ rvm use 2.2
     
     <item>
       <title>Single-Cylinder Engines (and grease)</title>
-      <link>http://jamieduerden.co.uk/post/single-cylinder-engines-and-grease/</link>
+      <link>https://jamieduerden.co.uk/post/single-cylinder-engines-and-grease/</link>
       <pubDate>Tue, 21 Jul 2015 19:56:10 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/single-cylinder-engines-and-grease/</guid>
+      <guid>https://jamieduerden.co.uk/post/single-cylinder-engines-and-grease/</guid>
       <description>&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ve been&lt;/strong&gt; saying for a while that it would be an excellent idea for me to learn how to clean and maintain internal combustion engines. First because they&amp;rsquo;re interesting, and my knowledge of them has been limited to diagrams&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fc8ea34896daa2166d286ba54a4cd5d9:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:fc8ea34896daa2166d286ba54a4cd5d9:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, and second because at some point I&amp;rsquo;d like to own a Series 3 Land Rover or early Defender, which is sort of pointless unless I can maintain it myself.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fc8ea34896daa2166d286ba54a4cd5d9:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:fc8ea34896daa2166d286ba54a4cd5d9:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Luckily for me, we had a spare IC-powered strimmer in the garage. Sitting empty and unused (partly because it wouldn&amp;rsquo;t start) for about two decades, it was the perfect &lt;del&gt;victim&lt;/del&gt; learning tool; a single cylinder, spark-plug ignition petrol engine, with flywheel. About eight moving parts, and as simple as these things get. I decided that rather than find a manual, I&amp;rsquo;d just dismantle it as far as possible, and try to divine the purpose of each element. Once cleaned and reassembled (and repaired, if I could work out what the problem was), I could check my accuracy by seeing if it would run.&lt;/p&gt;
@@ -413,7 +413,7 @@ rvm use 2.2
 
 &lt;p&gt;The parts are currently degreasing; I&amp;rsquo;ll scrub them all clean, work out which bits are supposed to be oiled and give them their necessary lubrication, and reassemble with new fuel and air filters. Hopefully the next post (with photographs, this time) on this will be when it&amp;rsquo;s running!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/engine-parts.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/07/engine-parts.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;

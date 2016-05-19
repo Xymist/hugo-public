@@ -3,7 +3,7 @@
   <channel>
       <title> on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://jamieduerden.co.uk/</link>
+    <link>https://jamieduerden.co.uk/</link>
     <language>en-gb</language>
     
     
@@ -11,35 +11,35 @@
     
     <item>
       <title>Sloggit</title>
-      <link>http://jamieduerden.co.uk/project/sloggit/</link>
+      <link>https://jamieduerden.co.uk/project/sloggit/</link>
       <pubDate>Wed, 30 Mar 2016 16:18:26 BST</pubDate>
       
-      <guid>http://jamieduerden.co.uk/project/sloggit/</guid>
+      <guid>https://jamieduerden.co.uk/project/sloggit/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Xymist/sloggit&#34;&gt;&lt;i class=&#34;fa fa-github fa-3x&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Sloggit</title>
-      <link>http://jamieduerden.co.uk/post/sloggit/</link>
+      <link>https://jamieduerden.co.uk/post/sloggit/</link>
       <pubDate>Wed, 30 Mar 2016 16:16:18 BST</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/sloggit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;http://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, until I can think of a better one.&lt;/p&gt;
+      <guid>https://jamieduerden.co.uk/post/sloggit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;https://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, until I can think of a better one.&lt;/p&gt;
 
 &lt;p&gt;For the moment there are no caches involved, thankfully.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Hello, Hugo!</title>
-      <link>http://jamieduerden.co.uk/post/hello-hugo/</link>
+      <title>Daft Software Names!</title>
+      <link>https://jamieduerden.co.uk/post/hello-hugo/</link>
       <pubDate>Fri, 18 Mar 2016 00:58:10 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/hello-hugo/</guid>
-      <description>&lt;p&gt;Following my successful move to new hosting, there&amp;rsquo;s been a bit of a hiatus in my blogging. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;http://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
+      <guid>https://jamieduerden.co.uk/post/hello-hugo/</guid>
+      <description>&lt;p&gt;Following my successful move to new hosting, there&amp;rsquo;s been a bit of a hiatus in my blogging. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;https://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;http://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;https://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It&amp;rsquo;s still not as heavily syntactically-sugared as I&amp;rsquo;d like, but it&amp;rsquo;s clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare.&lt;/p&gt;
 
@@ -53,10 +53,10 @@
     
     <item>
       <title>Kiosk Logging System</title>
-      <link>http://jamieduerden.co.uk/project/kiosk-logger/</link>
+      <link>https://jamieduerden.co.uk/project/kiosk-logger/</link>
       <pubDate>Thu, 03 Mar 2016 00:00:00 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/project/kiosk-logger/</guid>
+      <guid>https://jamieduerden.co.uk/project/kiosk-logger/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Xymist/caw-kiosk-logger&#34;&gt;&lt;i class=&#34;fa fa-github fa-3x&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a utility for creating a coherent log of kiosk access by public users. This retrieves data from the Firefox history and activity databases, interprets them, and feeds them to a central server.&lt;/p&gt;
@@ -67,7 +67,7 @@
 
 &lt;p&gt;This takes the raw data from the uploaded log files, loads them into a Postgres database, and manipulates them in a variety of ways to display the necessary information to non-technical end users.&lt;/p&gt;
 
-&lt;p&gt;Had I known in advance that I was going to need these functions, the kiosk site itself (see &lt;a href=&#34;http://jamieduerden.co.uk/project/citizens-advice-kiosks/&#34;&gt;here&lt;/a&gt; for that project) would have looked very different. I would almost certainly have done the entire thing in Ruby on Rails, logged every click server side, had each of the kiosks as users on a single site rather than doing a separate site for each (that last one was not my decision, I hasten to add; I protested the unmaintainability of that model from the start, but was overruled because &amp;ldquo;that&amp;rsquo;s the way we&amp;rsquo;ve always done it&amp;rdquo;) and had the backend data viewable just as an admin panel on that site, saving everyone time, energy and server resources.&lt;/p&gt;
+&lt;p&gt;Had I known in advance that I was going to need these functions, the kiosk site itself (see &lt;a href=&#34;https://jamieduerden.co.uk/project/citizens-advice-kiosks/&#34;&gt;here&lt;/a&gt; for that project) would have looked very different. I would almost certainly have done the entire thing in Ruby on Rails, logged every click server side, had each of the kiosks as users on a single site rather than doing a separate site for each (that last one was not my decision, I hasten to add; I protested the unmaintainability of that model from the start, but was overruled because &amp;ldquo;that&amp;rsquo;s the way we&amp;rsquo;ve always done it&amp;rdquo;) and had the backend data viewable just as an admin panel on that site, saving everyone time, energy and server resources.&lt;/p&gt;
 
 &lt;p&gt;There is a chance that this pilot project will be expanded to several times its current size. If that happens, I will lobby hard to be allowed to kill the multiple front ends and expand the log companion site to include the front end pages, removing the need for the logscript part of this project entirely.&lt;/p&gt;
 </description>
@@ -75,10 +75,10 @@
     
     <item>
       <title>Finally moving home</title>
-      <link>http://jamieduerden.co.uk/post/finally-moved/</link>
+      <link>https://jamieduerden.co.uk/post/finally-moved/</link>
       <pubDate>Mon, 21 Dec 2015 22:31:39 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/finally-moved/</guid>
+      <guid>https://jamieduerden.co.uk/post/finally-moved/</guid>
       <description>&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ve been meaning&lt;/strong&gt; for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.&lt;/p&gt;
 
 &lt;p&gt;Along the way, I managed to:&lt;/p&gt;
@@ -424,10 +424,10 @@ rvm use 2.2
     
     <item>
       <title>Food Wednesday: Cassoulet</title>
-      <link>http://jamieduerden.co.uk/post/food-wednesday-cassoulet/</link>
+      <link>https://jamieduerden.co.uk/post/food-wednesday-cassoulet/</link>
       <pubDate>Wed, 09 Dec 2015 15:30:09 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/food-wednesday-cassoulet/</guid>
+      <guid>https://jamieduerden.co.uk/post/food-wednesday-cassoulet/</guid>
       <description>&lt;p&gt;&lt;strong&gt;I promised&lt;/strong&gt; quite a long time ago, now, to give you all the rest of my recipe for not-actually-cassoulet. The confit duck legs of the previous recipe are one component of this; today you get the rest. Lucky you! I suggest you do the legs first since they need several days to mature.&lt;/p&gt;
 
 &lt;p&gt;The topping on this variant happens to be gluten-free, which was originally just because a friend of mine has this habit of getting rather ill when she eats bread, but turned out to be a rather tasty alternative to breadcrumbs.&lt;/p&gt;
@@ -537,10 +537,10 @@ rvm use 2.2
     
     <item>
       <title>Food Wednesday: Duck Confit</title>
-      <link>http://jamieduerden.co.uk/post/food-wednesday-duck-confit/</link>
+      <link>https://jamieduerden.co.uk/post/food-wednesday-duck-confit/</link>
       <pubDate>Wed, 26 Aug 2015 20:29:20 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/food-wednesday-duck-confit/</guid>
+      <guid>https://jamieduerden.co.uk/post/food-wednesday-duck-confit/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This one&lt;/strong&gt; was actually done on a Sunday, but you&amp;rsquo;re getting it on Wednesday because how else does one maintain a new tradition?&lt;/p&gt;
 
 &lt;p&gt;Confit duck leg isn&amp;rsquo;t exactly complex, though there&amp;rsquo;s a fair bit in the sauce here, but it&amp;rsquo;s delicious and sounds impressive, if that&amp;rsquo;s something you go for in your food. Duck itself is a fairly versatile meat, so long as you don&amp;rsquo;t overwhelm the flavour. In this instance it&amp;rsquo;s paired with orange, which is classic, but there are an awful lot of options. This is also a ingredient in another recipe which I will at some point post here - cassoulet. Start three days early - if you want it for Saturday dinner, start on Wednesday night.&lt;/p&gt;
@@ -579,7 +579,7 @@ rvm use 2.2
 &lt;p&gt;Dice your half head of garlic, set it aside. You&amp;rsquo;ll need it in a bit, but it&amp;rsquo;s a nice easy start, and we all like that, right? Besides, it smells awesome.&lt;/p&gt;
 
 &lt;p&gt;Get yourself a box like this:
-&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150821_204639-1-.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150821_204639-1-.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Important factors here: it seals, and it has the rack in the bottom to give it a bit of space underneath the meat. Arrange your duck legs artistically in the box, and then sprinkle salt (all of it), juniper berries, the caster sugar, that garlic you shredded, and lots of ground black pepper (use an actual grinder. I&amp;rsquo;m sure you don&amp;rsquo;t own the powdered stuff, but just in case&amp;hellip;).&lt;/p&gt;
 
@@ -605,10 +605,10 @@ rvm use 2.2
     
     <item>
       <title>Lessons from Groundhog Day</title>
-      <link>http://jamieduerden.co.uk/post/lessons-from-groundhog-day/</link>
+      <link>https://jamieduerden.co.uk/post/lessons-from-groundhog-day/</link>
       <pubDate>Sun, 23 Aug 2015 12:49:20 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/lessons-from-groundhog-day/</guid>
+      <guid>https://jamieduerden.co.uk/post/lessons-from-groundhog-day/</guid>
       <description>&lt;p&gt;&lt;strong&gt;The strange thing&lt;/strong&gt; about this film is that it&amp;rsquo;s worth watching repeatedly. That&amp;rsquo;s usually just the mark of a good film, but given the premise involves a man repeating a single day of his life for what appears to be several subjective decades (or perhaps centuries), there&amp;rsquo;s a certain sense of the appropriate in its revisitability.&lt;/p&gt;
 
 &lt;p&gt;On this watching, I was struck by something that I&amp;rsquo;d somehow missed the implications of before. The protagonist, on discovering that he is repeating February 2&lt;sup&gt;nd&lt;/sup&gt;, initially reacts as you might expect a rational person to do: examine his environment, assume that he is losing his sanity (this is generally more likely than magic, regardless of your situation), and finally panic. He then proceeds to act like an impulsive moron for a while before descending into depression. The flurry of subsequent suicides is maybe not the mark of a sensible person, but it is followed by a phase that finally makes use of the situation: &lt;em&gt;recursive self-improvement&lt;/em&gt;.&lt;/p&gt;
@@ -642,10 +642,10 @@ rvm use 2.2
     
     <item>
       <title>Book Review: Ikigai - Sebastian Marshall</title>
-      <link>http://jamieduerden.co.uk/post/book-review-ikigai/</link>
+      <link>https://jamieduerden.co.uk/post/book-review-ikigai/</link>
       <pubDate>Sat, 22 Aug 2015 12:50:50 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/book-review-ikigai/</guid>
+      <guid>https://jamieduerden.co.uk/post/book-review-ikigai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s very rare&lt;/strong&gt; for me to encounter a book which affects me enough that I have to put it down every few pages, think about it, and take notes. This is one of those rare ones. It&amp;rsquo;s certainly not for everyone, but if you&amp;rsquo;re looking for inspiration and for encouragement in being more effective, you&amp;rsquo;ll start getting your fix about half a chapter in - and it doesn&amp;rsquo;t let up.&lt;/p&gt;
 
 &lt;p&gt;Marshall sets out his ambition to become &amp;lsquo;the finest strategist of a generation&amp;rsquo;, and then goes on to reveal how, precisely, he believes it will be possible for him to achieve this. From the wrong station in Japan to cafés and boardrooms across Europe, we are made privy to his introspection and planning.&lt;/p&gt;
@@ -691,10 +691,10 @@ rvm use 2.2
     
     <item>
       <title>Project Euler</title>
-      <link>http://jamieduerden.co.uk/post/project-euler/</link>
+      <link>https://jamieduerden.co.uk/post/project-euler/</link>
       <pubDate>Fri, 14 Aug 2015 19:37:53 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/project-euler/</guid>
+      <guid>https://jamieduerden.co.uk/post/project-euler/</guid>
       <description>&lt;p&gt;&lt;strong&gt;If you&amp;rsquo;re considering&lt;/strong&gt; teaching yourself to code, or even just to code in a new language, I heartily recommend you take a look at &lt;a href=&#34;http://projecteuler.net&#34;&gt;Project Euler&lt;/a&gt;. It&amp;rsquo;s essentially a collection of user-submitted maths questions, sufficiently tricky as to require solving by a computer, but sufficiently unintensive that programs capable of solving them can run in a reasonable time.&lt;/p&gt;
 
 &lt;p&gt;The mathematics themselves are done by your code, but the real challenge lies in thinking through the necessary algorithms and program flow such that you can build something which fulfils the requirements. It demands that you understand the problem, the nature of the solution, and your language of choice well enough to communicate the requirements to the computer.&lt;/p&gt;
@@ -707,10 +707,10 @@ rvm use 2.2
     
     <item>
       <title>Food Wednesday: Pork Fillet &amp; Figs</title>
-      <link>http://jamieduerden.co.uk/post/food-wednesday-pork-fillet/</link>
+      <link>https://jamieduerden.co.uk/post/food-wednesday-pork-fillet/</link>
       <pubDate>Thu, 13 Aug 2015 23:38:41 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/food-wednesday-pork-fillet/</guid>
+      <guid>https://jamieduerden.co.uk/post/food-wednesday-pork-fillet/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This week&lt;/strong&gt;, someone else&amp;rsquo;s hands were doing the cooking, so I could and did remember to take photographs. Credit due Fiona for this one; we don&amp;rsquo;t know where the recipe originated. Lateness due to difficulties in actually retrieving said photographs.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Pork Fillet with Figs and Tallegio - Serves three. Two if you&amp;rsquo;re hungry. Four if you&amp;rsquo;re small.&lt;/em&gt;&lt;/p&gt;
@@ -735,31 +735,31 @@ rvm use 2.2
 
 &lt;p&gt;To start off, you want to get the figs drunk. They&amp;rsquo;re parched, it&amp;rsquo;s only kind. Sit them in a bowl, covered with the sherry, for at least an hour or so before you start doing anything else.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_170449.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150809_170449.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Take your pork fillet, and lay it on a wooden or plastic board (not glass, unless you like eating glass shards), with clingfilm between it and the board. Slit it down the centre about &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; of the way through, lay it out flat, then cover with clingfilm and beat it with a meat mallet until about 8-10mm thick and fully tenderised.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_170505.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150809_170505.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Dice your tallegio into ~12mm blocks. Discard the orange skin, it&amp;rsquo;s not especially tasty.&lt;/p&gt;
 
 &lt;p&gt;Extract your figs from the sherry and remove their stalks. This should open up a handy cavity, into each of which you need to press a block of tallegio. Lay your stuffed figs in a line down the long axis of the flattened pork, tight against each other. Do remember to remove the clingfilm, it melts and smokes in the oven and doesn&amp;rsquo;t add much to the flavour. Dash of salt and a fair bit of pepper, then roll the pork around the figs and tie it up with string.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_170635.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150809_170635.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In an ovenproof dish, lay all the rosemary sprigs in a line, then place the pork on top of them. Pour the sherry which the figs were soaking in over the pork, then send the whole lot into the oven at 453K.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_171106.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150809_171106.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You&amp;rsquo;ll have quite a bit of tallegio left over. That goes into a saucepan, along with about 30g of butter and 3tbsp of cream, plus liberal pepper and a little salt. Low heat, melt and stir until homogeneous liquid is obtained.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_171404.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150809_171404.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Rice goes in a pan, covered, with water. About eighteen minutes should do it. Courgettes can either be steamed, as here, or fried in butter. Either way they take moments.&lt;/p&gt;
 
 &lt;p&gt;Once the meat is done, pull from the oven and allow to rest while you give each plate a portion of rice and courgettes. Slice thickly, distribute, and pour the dairy over.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150809_180020.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150809_180020.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Nom.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -776,10 +776,10 @@ rvm use 2.2
     
     <item>
       <title>Learning Me A Haskell</title>
-      <link>http://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
+      <link>https://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
       <pubDate>Tue, 11 Aug 2015 22:53:53 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
+      <guid>https://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Without much&lt;/strong&gt; reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &amp;lsquo;moderate&amp;rsquo; competence. Won&amp;rsquo;t be winning any prizes for code quality, but it&amp;rsquo;s a learning process, and I&amp;rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.&lt;/p&gt;
 
 &lt;p&gt;There aren&amp;rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from &lt;a href=&#34;http://sandymaguire.me&#34;&gt;Sandy&lt;/a&gt; I went for Haskell.&lt;/p&gt;
@@ -821,10 +821,10 @@ fizzy n = [genFizzBuzz x | x &lt;- [0..n]] -- This just lets me set the range to
     
     <item>
       <title>Food Wednesday: Pulled Pork &#39;Arancini&#39;</title>
-      <link>http://jamieduerden.co.uk/post/food-wednesday-pulled-pork-arancini/</link>
+      <link>https://jamieduerden.co.uk/post/food-wednesday-pulled-pork-arancini/</link>
       <pubDate>Wed, 05 Aug 2015 21:54:38 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/food-wednesday-pulled-pork-arancini/</guid>
+      <guid>https://jamieduerden.co.uk/post/food-wednesday-pulled-pork-arancini/</guid>
       <description>&lt;p&gt;This is one of those recipes where I can sort of see how it came into being, but it&amp;rsquo;s a long way from its starting points. The rice preparation is sushi base, the pulled pork goes well in sandwiches, arancini are Italian. Culturally horrifying? Sure. So sue me, it tastes great. Anyone not convinced about bacon, halloumi, mango and black pepper, just try it - it&amp;rsquo;s a great salad all by itself.&lt;/p&gt;
 
 &lt;p&gt;This one happens to be gluten free, but if you want to sub out the cornflakes for breadcrumbs or panko, it&amp;rsquo;ll work just fine. I suppose you could also batter them, if you wanted something more portable.&lt;/p&gt;
@@ -895,19 +895,19 @@ Several handfuls of crushed cornflakes&lt;/p&gt;
     
     <item>
       <title>Single-Cylinder Engines (2)</title>
-      <link>http://jamieduerden.co.uk/post/single-cylinder-engines-2/</link>
+      <link>https://jamieduerden.co.uk/post/single-cylinder-engines-2/</link>
       <pubDate>Tue, 04 Aug 2015 12:51:26 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/single-cylinder-engines-2/</guid>
+      <guid>https://jamieduerden.co.uk/post/single-cylinder-engines-2/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This weekend&lt;/strong&gt;, I thought it would be sensible to attempt to finish what I&amp;rsquo;d started with the broken petrol engine.&lt;/p&gt;
 
 &lt;p&gt;Having thoroughly de-greased and cleaned all the components, then rinsed them in WD-40 and left to dry for a week, I was hoping to see some improvement.
-&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_145027.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150801_145027.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Reassembly went reasonably well.
-&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_145118-1.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_151638.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/08/IMG_20150801_152310-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150801_145118-1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150801_151638.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/08/IMG_20150801_152310-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It does turn over a great deal more easily; the sound of well-oiled machinery rather than grinding metal. However&amp;hellip;&lt;/p&gt;
 
@@ -925,20 +925,20 @@ Several handfuls of crushed cornflakes&lt;/p&gt;
     
     <item>
       <title>Satchelmaking (1/?)</title>
-      <link>http://jamieduerden.co.uk/post/satchelmaking/</link>
+      <link>https://jamieduerden.co.uk/post/satchelmaking/</link>
       <pubDate>Fri, 31 Jul 2015 18:20:49 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/satchelmaking/</guid>
+      <guid>https://jamieduerden.co.uk/post/satchelmaking/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Today&amp;rsquo;s new idea&lt;/strong&gt;, given as a surprise by a friend, is a work satchel, suited to carrying both luncheon and tools. The spec was to be able to carry a lunchbox, a water bottle, and a selection of hand tools, plus snacks and possibly a notepad. It didn&amp;rsquo;t have to carry a laptop, which means smaller pockets and less weight overall.&lt;/p&gt;
 
 &lt;p&gt;I generated a five-minute sketch to start with:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/satchelsketch.jpg&#34; alt=&#34;First Sketch&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/07/satchelsketch.jpg&#34; alt=&#34;First Sketch&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then switched to SketchUp to refine the idea:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/Satchel-Top--small-v1.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://jamieduerden.co.uk/images/2015/07/Satchel-Overall--small-v1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/07/Satchel-Top--small-v1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://jamieduerden.co.uk/images/2015/07/Satchel-Overall--small-v1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Apologies for the huge number of dimensions.&lt;/p&gt;
 

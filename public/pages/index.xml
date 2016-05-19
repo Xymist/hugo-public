@@ -3,7 +3,7 @@
   <channel>
       <title>Pages on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://jamieduerden.co.uk/pages/</link>
+    <link>https://jamieduerden.co.uk/pages/</link>
     <language>en-gb</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Contact Me</title>
-      <link>http://jamieduerden.co.uk/pages/contact/</link>
+      <link>https://jamieduerden.co.uk/pages/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/pages/contact/</guid>
+      <guid>https://jamieduerden.co.uk/pages/contact/</guid>
       <description>&lt;p&gt;If you need to get hold of me, email is preferable; it&#39;s the only mode of communication I reliably check.&lt;/p&gt;
 
 &lt;p&gt;Missives sent to &lt;a href=&#34;mailto:james@jamieduerden.co.uk&#34;&gt;this email address&lt;/a&gt; will be checked the same day. If
@@ -102,10 +102,10 @@ gtEAn22puQEm4j6/ftecayFBox5QZnuK
     
     <item>
       <title>Résumé</title>
-      <link>http://jamieduerden.co.uk/pages/resume/</link>
+      <link>https://jamieduerden.co.uk/pages/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/pages/resume/</guid>
+      <guid>https://jamieduerden.co.uk/pages/resume/</guid>
       <description>&lt;iframe src=&#34;https://resume.creddle.io/embed/byl98eawltz&#34; width=&#34;827&#34; height=&#34;2450&#34; seamless&gt;&lt;/iframe&gt;
 </description>
     </item>

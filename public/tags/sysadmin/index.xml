@@ -3,7 +3,7 @@
   <channel>
       <title>Sysadmin on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://jamieduerden.co.uk/tags/sysadmin/</link>
+    <link>https://jamieduerden.co.uk/tags/sysadmin/</link>
     <language>en-gb</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Finally moving home</title>
-      <link>http://jamieduerden.co.uk/post/finally-moved/</link>
+      <link>https://jamieduerden.co.uk/post/finally-moved/</link>
       <pubDate>Mon, 21 Dec 2015 22:31:39 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/finally-moved/</guid>
+      <guid>https://jamieduerden.co.uk/post/finally-moved/</guid>
       <description>&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ve been meaning&lt;/strong&gt; for a while to move over from shared hosting to a VPS, partly for control and partly because it seemed like the sort of thing I should know how to do.&lt;/p&gt;
 
 &lt;p&gt;Along the way, I managed to:&lt;/p&gt;

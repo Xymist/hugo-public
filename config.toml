@@ -1,4 +1,4 @@
-baseurl = "http://jamieduerden.co.uk/"
+baseurl = "https://jamieduerden.co.uk/"
 languageCode = "en-gb"
 title = "Not So Fungible"
 theme = "hugo-uno"

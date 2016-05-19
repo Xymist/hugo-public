@@ -3,7 +3,7 @@
   <channel>
       <title>Coding on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://jamieduerden.co.uk/tags/coding/</link>
+    <link>https://jamieduerden.co.uk/tags/coding/</link>
     <language>en-gb</language>
     
     
@@ -11,25 +11,25 @@
     
     <item>
       <title>Sloggit</title>
-      <link>http://jamieduerden.co.uk/post/sloggit/</link>
+      <link>https://jamieduerden.co.uk/post/sloggit/</link>
       <pubDate>Wed, 30 Mar 2016 16:16:18 BST</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/sloggit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;http://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, until I can think of a better one.&lt;/p&gt;
+      <guid>https://jamieduerden.co.uk/post/sloggit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;https://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, until I can think of a better one.&lt;/p&gt;
 
 &lt;p&gt;For the moment there are no caches involved, thankfully.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Hello, Hugo!</title>
-      <link>http://jamieduerden.co.uk/post/hello-hugo/</link>
+      <title>Daft Software Names!</title>
+      <link>https://jamieduerden.co.uk/post/hello-hugo/</link>
       <pubDate>Fri, 18 Mar 2016 00:58:10 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/hello-hugo/</guid>
-      <description>&lt;p&gt;Following my successful move to new hosting, there&amp;rsquo;s been a bit of a hiatus in my blogging. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;http://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
+      <guid>https://jamieduerden.co.uk/post/hello-hugo/</guid>
+      <description>&lt;p&gt;Following my successful move to new hosting, there&amp;rsquo;s been a bit of a hiatus in my blogging. This has mainly come about because I&amp;rsquo;ve been doing some actual useful work, at least some of which has involved some &lt;a href=&#34;https://jamieduerden.co.uk/project/&#34;&gt;coding&lt;/a&gt;, which is always entertaining.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;http://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. &lt;a href=&#34;https://jamieduerden.co.uk/post/learning-me-a-haskell&#34;&gt;Haskell&lt;/a&gt;, while beautiful and elegant when it&amp;rsquo;s going right, is a complete pain when it&amp;rsquo;s going wrong. Moreover it&amp;rsquo;s not as fast as many other languages, and isn&amp;rsquo;t especially marketable. I&amp;rsquo;ll be keeping at it, though, because it has taught me more about how good code &lt;em&gt;works&lt;/em&gt; than any other language.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It&amp;rsquo;s still not as heavily syntactically-sugared as I&amp;rsquo;d like, but it&amp;rsquo;s clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare.&lt;/p&gt;
 
@@ -43,10 +43,10 @@
     
     <item>
       <title>Project Euler</title>
-      <link>http://jamieduerden.co.uk/post/project-euler/</link>
+      <link>https://jamieduerden.co.uk/post/project-euler/</link>
       <pubDate>Fri, 14 Aug 2015 19:37:53 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/project-euler/</guid>
+      <guid>https://jamieduerden.co.uk/post/project-euler/</guid>
       <description>&lt;p&gt;&lt;strong&gt;If you&amp;rsquo;re considering&lt;/strong&gt; teaching yourself to code, or even just to code in a new language, I heartily recommend you take a look at &lt;a href=&#34;http://projecteuler.net&#34;&gt;Project Euler&lt;/a&gt;. It&amp;rsquo;s essentially a collection of user-submitted maths questions, sufficiently tricky as to require solving by a computer, but sufficiently unintensive that programs capable of solving them can run in a reasonable time.&lt;/p&gt;
 
 &lt;p&gt;The mathematics themselves are done by your code, but the real challenge lies in thinking through the necessary algorithms and program flow such that you can build something which fulfils the requirements. It demands that you understand the problem, the nature of the solution, and your language of choice well enough to communicate the requirements to the computer.&lt;/p&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>Learning Me A Haskell</title>
-      <link>http://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
+      <link>https://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
       <pubDate>Tue, 11 Aug 2015 22:53:53 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
+      <guid>https://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Without much&lt;/strong&gt; reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &amp;lsquo;moderate&amp;rsquo; competence. Won&amp;rsquo;t be winning any prizes for code quality, but it&amp;rsquo;s a learning process, and I&amp;rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.&lt;/p&gt;
 
 &lt;p&gt;There aren&amp;rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from &lt;a href=&#34;http://sandymaguire.me&#34;&gt;Sandy&lt;/a&gt; I went for Haskell.&lt;/p&gt;
@@ -104,10 +104,10 @@ fizzy n = [genFizzBuzz x | x &lt;- [0..n]] -- This just lets me set the range to
     
     <item>
       <title>Progress is made!</title>
-      <link>http://jamieduerden.co.uk/post/progress-is-made/</link>
+      <link>https://jamieduerden.co.uk/post/progress-is-made/</link>
       <pubDate>Thu, 16 Jul 2015 17:45:47 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/progress-is-made/</guid>
+      <guid>https://jamieduerden.co.uk/post/progress-is-made/</guid>
       <description>&lt;p&gt;It doesn&amp;rsquo;t &lt;em&gt;look&lt;/em&gt; like much, but the main site is now nicely configured, and the root URL redirects where it&amp;rsquo;s supposed to&amp;hellip; unfortunately not transparently. Still working on that; apparently .htaccess configurations don&amp;rsquo;t play nice with ngRoute.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve also set up &lt;a href=&#34;http://mathjax.org&#34;&gt;MathJax&lt;/a&gt; and &lt;a href=&#34;http://prismjs.com&#34;&gt;Prism&lt;/a&gt;, so when I want to show off crappy code and inaccurate maths, they&amp;rsquo;ll look less crappy and inaccurate.&lt;/p&gt;

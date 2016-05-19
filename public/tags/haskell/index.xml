@@ -3,7 +3,7 @@
   <channel>
       <title>Haskell on Not So Fungible </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://jamieduerden.co.uk/tags/haskell/</link>
+    <link>https://jamieduerden.co.uk/tags/haskell/</link>
     <language>en-gb</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Learning Me A Haskell</title>
-      <link>http://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
+      <link>https://jamieduerden.co.uk/post/learning-me-a-haskell/</link>
       <pubDate>Tue, 11 Aug 2015 22:53:53 UTC</pubDate>
       
-      <guid>http://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
+      <guid>https://jamieduerden.co.uk/post/learning-me-a-haskell/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Without much&lt;/strong&gt; reason, I decided to try out a functional language. I have two scripting [Python, Ruby] and one imperative [D] at &amp;lsquo;moderate&amp;rsquo; competence. Won&amp;rsquo;t be winning any prizes for code quality, but it&amp;rsquo;s a learning process, and I&amp;rsquo;m finding that as I try out more languages and frameworks, the underlying similarities are more and more obvious.&lt;/p&gt;
 
 &lt;p&gt;There aren&amp;rsquo;t that many straightforward, well supported functional languages out there, so with a recommendation from &lt;a href=&#34;http://sandymaguire.me&#34;&gt;Sandy&lt;/a&gt; I went for Haskell.&lt;/p&gt;
