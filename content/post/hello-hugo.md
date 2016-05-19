@@ -1,7 +1,7 @@
 +++
 date = "2016-03-18T00:58:10Z"
 menu = "main"
-title = "Hello, Hugo!"
+title = "Daft Software Names!"
 tags = ["Coding", "Golang"]
 +++
 

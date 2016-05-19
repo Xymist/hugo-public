@@ -15,7 +15,8 @@
       <pubDate>Wed, 30 Mar 2016 16:18:26 BST</pubDate>
       
       <guid>http://jamieduerden.co.uk/project/sloggit/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Xymist/sloggit&#34;&gt;&lt;i class=&#34;fa fa-github fa-3x&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,7 +25,9 @@
       <pubDate>Wed, 30 Mar 2016 16:16:18 BST</pubDate>
       
       <guid>http://jamieduerden.co.uk/post/sloggit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;http://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, at least for the time being.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;I felt like&lt;/strong&gt; building something less samey than another test website or to-do list app, so I&amp;rsquo;m working on a text-based adventure. As they say, the two hardest things in computer science are naming things and cache invalidation; consequently this little app labours under the uninspired name of &lt;a href=&#34;http://jamieduerden.co.uk/project/sloggit&#34;&gt;&amp;ldquo;Sloggit&amp;rdquo;&lt;/a&gt;, until I can think of a better one.&lt;/p&gt;
+
+&lt;p&gt;For the moment there are no caches involved, thankfully.&lt;/p&gt;
 </description>
     </item>
     
