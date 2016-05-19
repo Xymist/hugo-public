@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  $('#contactThankYou').hide();
   $('#contact-form').submit(function (event) {
     $.ajax({
       type     : 'POST',
