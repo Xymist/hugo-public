@@ -77,7 +77,7 @@ Welcome to Ubuntu 15.10 (GNU/Linux 4.2.0-16-generic x86_64)
 Last login: {now} from {your IP address}
 root@{hostname}:~#
 ```
-Unless specified otherwise, everything from now on needs to be run in this shell. If you run it in the shell on your computer, it will not affect your server and you may screw up your pc, so pay attention to which environment you're typing in.
+Unless specified otherwise, everything from now on needs to be run in this shell. If you run it in the shell on your computer, it will not affect your server and you may screw up your PC, so pay attention to which environment you're typing in.
 
 Before you do anything else, though, you need to update properly.
 
@@ -294,7 +294,11 @@ And you should have a working mail server. Restart everything: `newaliases && su
 
 The last thing to do, of course, is create an account. The way Digital Ocean starts things up, you're probably running all this as Root. That's not all that handy, and besides, you want your name. So you need to add yourself as a user, which will automatically create a mail account for you.
 
-`sudo adduser YOURNAME` and follow the instructions; once that's done, `su - YOURNAME` and you should be presented with a new prompt; one for you, rather than Root. `exit` to return to the root shell, and then go attempt to login and send some mail with Thunderbird. The username is YOURNAME (not YOURNAME@yourdomain), the IMAP port is 993, the SMTP port is 587, and you're using 'normal password' with STARTTLS.
+`sudo adduser YOURNAME` and follow the instructions; once that's done, `su - YOURNAME` and you should be presented with a new prompt; one for you, rather than Root. `exit` to return to the root shell. From a shell on your PC, run `ssh-copy-id YOURNAME@YOURWEBADDRESS` and when prompted give the password for the account you just created.
+
+At this point you probably want to give your new user `sudo` permissions, so that you can avoid using Root at all; run `visudo` and put `YOURNAME    ALL=(ALL:ALL) ALL` beneath the line that's already there. Then go to `/etc/ssh/sshd_config`, find the line which says `PermitRootLogin` and set it to 'no'. While you're here, you should also set `ChallengeResponseAuthentication`, `PasswordAuthentication` and `UsePAM` to 'no'
+
+Now it's time to attempt to login and send some mail with Thunderbird (or your mail client of choice). The username is YOURNAME (not YOURNAME@yourdomain), the IMAP port is 993, the SMTP port is 587, and you're using 'normal password' with STARTTLS.
 
 **Publishing a Website**
 
@@ -304,11 +308,11 @@ If you don't have Git on your local machine, go get that. Then do the same for t
 
 Currently, your website is owned by Root. That's not exactly secure, now is it?
 
-Let's make a new person: `sudo adduser yoursite-admin`, and assign ownership to them: `sudo chown -R yoursite-admin /var/www/yoursitename/`. This person also needs to have root privileges for some things, so `sudo visudo` and add the line `yoursite-admin    ALL=(ALL:ALL) ALL` just underneath the equivalent line for Root. You should also add `Defaults insults` underneath the other Defaults declarations.
+Let's make a new person: `sudo adduser yoursite-admin` again, and assign ownership to them: `sudo chown -R yoursite-admin /var/www/yoursitename/`. This person also needs to have root privileges for some things, so `sudo visudo` and add the line `yoursite-admin    ALL=(ALL:ALL) ALL` just underneath the equivalent line for YOURNAME. You should also add `Defaults insults` underneath the other Defaults declarations.
 
 Now just `su - yoursite-admin` and you're ready to start getting ready to publish.
 
-You should already be in ~, as that's the default when you switch users. `mkdir yoursite.git && cd yoursite.git && git init --bare` This will create a new Git repository with no working tree, especially for you to push files to. You need to tell it what to do with them, though.
+You should already be in ~, as that's the default when you switch users with `-`. Run `mkdir yoursite.git && cd yoursite.git && git init --bare` This will create a new Git repository, especially for you to push files to. You need to tell it what to do with them, though.
 
 `nano /hooks/post-receive`
 ```
