@@ -1,12 +1,20 @@
-function encrypt_if_possible() {
-  //var openpgp = require('openpgp');
-  //var key = document.getElementById('pub-key').innerHTML;
-  //var publicKey = openpgp.key.readArmored(key);
-  //openpgp.encryptMessage(publicKey.keys, document.getElementById('main-input').value).then(function(pgpMessage) {
-  //  $('#main-input').value=pgpMessage;
-  //  $("contact-form").submit();
-  //}).catch(function(error) {
-  //  console.log("Failed to encrypt message; sending in plaintext");
-    $("contact-form").submit();
-  //});
-}
+$(document).ready(function () {
+  $('#contact-form').submit(function (event) {
+    $.ajax({
+      type     : 'POST',
+      url      : 'https://jamieduerden.co.uk/pages/contact',
+      data     : $('#contact-form').serialize(),
+      dataType : 'json',
+      encode   : true
+    })
+    .done(function (data) {
+      console.log(data);
+      $('#contactThankYou').show();
+      $('#contact-form').hide();
+    })
+    .fail(function () {
+        alert("error");
+    });
+    event.preventDefault();
+  });
+});

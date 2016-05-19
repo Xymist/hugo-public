@@ -7,15 +7,17 @@ title = "Contact Me"
 <p>Missives sent to <a href="mailto:james@jamieduerden.co.uk">this email address</a> will be checked the same day. If
     you have another email address for me, it's deprecated from this point on.</p>
 
-<p>I strongly prefer that anything you send me be encrypted; my public key is <a href="http://pgp.mit.edu/pks/lookup?op=get&search=0x4B7772F89A3334D6">here</a><!--, or you can use the contact form below which automatically encrypts the body of the email TODO: No it doesn't!-->. If you can sign it as well, even better.</p>
+<p>I strongly prefer that anything you send me be encrypted; my public key is <a href="http://pgp.mit.edu/pks/lookup?op=get&search=0x4B7772F89A3334D6">here</a>. If you can sign it as well, even better.</p>
 
-<form id="contact-form" class="ui form" action="https://formspree.io/james@jamieduerden.co.uk" method="POST" role="form">
+<div id="contactThankYou" style="display:hidden;">Thank you. Your message has been sent.</div>
+
+<form id="contact-form" class="ui form" action="#" method="POST" role="form">
 	<div class="field">
 		<label for="name">Your Name</label>
 		<input type="text" class="form-control" name="name" id="name" placeholder="Your Name" tabindex="1" required>
 	</div>
     <div class="field">
-        <label for="name">Your Email</label>
+        <label for="email">Your Email</label>
         <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" tabindex="2" required>
     </div>
     <div class="field">
@@ -24,11 +26,11 @@ title = "Contact Me"
     </div>
 
     <div class="field">
-        <label for="main-input">Tell Me Something</label>
-        <textarea name="main-input" id="main-input" placeholder="Text Goes Here" tabindex="4" required></textarea>
+        <label for="message">Tell Me Something</label>
+        <textarea name="message" id="message" placeholder="Text Goes Here" tabindex="4" required></textarea>
     </div>
 
-    <button class="ui button" id="encrypt-button" onClick="encrypt_if_possible()" tabindex="5"><!--Encrypt & -->Send</button> <!--This will, eventually, run the input through openPGP.js. TODO: Why does this not work? -->
+    <button class="ui submit button" id="submit-button" tabindex="5">Send</button>
 </form>
 <div class="hidden">
     <div class="vcard">
