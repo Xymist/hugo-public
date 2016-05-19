@@ -23,4 +23,4 @@ I'm a little puzzled, so it's back to research for now.
 
 Addendum 14/08/15: After some research and further examining the parts, it looks like all the gaskets and seals need replacing. This engine isn't made any more, and spare parts seem few and far between, so I am unlikely to be able to fix it. Especially as it didn't work before I started.
 
-I've learned a great deal, though, so I consider this a partial success.
+I've learned a great deal, though, so I consider this a partial success despite the fact that the engine will now *definitely* never run again, rather than just *probably*.

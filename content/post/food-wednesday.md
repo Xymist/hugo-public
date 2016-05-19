@@ -50,7 +50,7 @@ The courgettes go in a frying pan with about 40g of butter. Don't put it on the 
 
 Go back to your onions. They miss you. Add the veal, and break it up with a wooden spoon. It should immediately start cooking. Don't add any liquid at this point, just ignore it all for a while, shoving it around and turning it over so it all goes brown rather than wet grey.
 
-While that's cooking, throw a party for the cream, Boursin, tomato paste, 50g of butter, and small palmful of grated parmesan to a saucepan, and get it on a low heat. Once the butter is melted, find yourself a balloon whisk and whisk it all together into a stiff reddish-orange paste. Try it, it's yummy (but then as great cooks you've been tasting everything as we go anyway, right?). Add a liberal amount of salt, a few grinds of pepper, and a small handful of pink peppercorns.
+While that's cooking, throw a party for the cream, Boursin, tomato paste, 50g of butter, and small palmful of grated parmesan in a saucepan, and get it on a low heat. Once the butter is melted, find yourself a balloon whisk and whisk it all together into a stiff reddish-orange paste. Try it, it's yummy (but then as great cooks you've been tasting everything as we go anyway, right?). Add a liberal amount of salt, a few grinds of pepper, and a small handful of pink peppercorns.
 
 By this point the microwave should be yelling at you, so go retrieve your sweet potato chunks. Drain off the water, and add the chunks to the pan with the cheese and tomato mixture. Whisk the whole lot until it's smooth and mashed. If you have a potato masher this would also work, but they're harder to clean and you already have the whisk dirty so you might as well use that.
 

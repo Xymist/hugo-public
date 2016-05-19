@@ -18,3 +18,7 @@ I held off on learning JS for a long time, preferring the friendliness of Python
 Level Up - one skill point.
 
 Jamie
+
+-----------
+
+*Future!Jamie here: This does indeed look a bit ridiculous from this end of the year. Moreover it's hopelessly out of date, since I no longer use Angular, Prism or Apache2 for the website...*

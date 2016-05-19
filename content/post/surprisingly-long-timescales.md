@@ -8,11 +8,13 @@ tags = ["Blogging", "Coding", "Golang", "Hobbies"]
 
 **It has been** quite some time since I last wrote any content for this blog. I've been meaning to (the stack of article ideas and 'TODO:' notes keeps growing, which ironically will be the subject of another post) but somehow the time and the will never seemed to coincide. This has mainly come about because I've been doing some actual useful work, at least some of which has involved some [coding](/project/), which is always entertaining.
 
+It was nearly a year ago that I first started blogging; I've learned a considerable amount since then (so much so that some of these posts now appear as 'how not to do it'), which I suppose is a good sign. If I didn't read through my old posts and conclude that past!Jamie wasn't very bright, I wouldn't be progressing very much!
+
 I've been in need of a good low-level (ish) language for some time - my D is poor, my C/C++ nonexistent, and my Java not exactly stellar. The biggest problem has been finding one which I like, and which compares favourably in terms of readability to Ruby, which has been my favourite language (slightly ahead of Python) for quite some time. [Haskell](/post/learning-me-a-haskell), while beautiful and elegant when it's going right, is a complete pain when it's going wrong. Moreover it's not as fast as many other languages, and isn't especially marketable. I'll be keeping at it, though, because it has taught me more about how good code *works* than any other language.
 
-I've looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It's still not as heavily syntactically-sugared as I'd like, but it's clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare.
+While investigating possibilities to fill this need, I looked at Clojure, Elixir, Swift and C# (for a variety of different reasons), but finally settled on Go. It's still not as heavily syntactically-sugared as I'd like, but it's clean, tidy and fast, and compiles across all platforms to nice statically-linked binaries, which some others (Haskell and D, in particular) definitely do not. Attempting to cross-compile Haskell code for Windows on Linux was a nightmare. I'm also quite fond of the GOPATH system (directly pulling dependencies from Github if they're not already cached? Yes please!) and the linting/hinting/prettifying tools don't hurt a bit.
 
-As a first pass, I've moved both the site and the blog over to [Hugo](http://gohugo.io/) - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it's a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don't like JavaScript very much. This has reduced the amount I needed to write quite considerably, though the theme did need some work, and integrates the blog properly into the website rather than having it as a separate engine.
+As a first pass at simplifying things, I've moved both the site and the blog over to [Hugo](http://gohugo.io/) - previously the site was slightly messy AngularJS while the blog ran on Ghost. I have no issues with Ghost, it's a lovely piece of software, but I was never entirely happy with Angular as a framework. Mostly because I don't like JavaScript very much. This has reduced the amount I needed to write quite considerably, though the theme did need some work, and integrates the blog properly into the website rather than having it as a separate engine.
 
 I have also dropped Nginx in favour of [Caddy](https://caddyserver.com/); not because I have anything against Nginx (unlike Apache; I'm still using it for my other projects) but because it too is written in Go, it's small and simple to configure, and I wanted to test out some of its more cutting edge features, in particular the auto-SSL function which leverages LetsEncrypt's handy API to acquire a valid certificate on first startup. That went perfectly, so gone are the days of anyone having the slightest excuse for a self-signed (or absent!) certificate. I've seen a slight reduction in server resource usage into the bargain, which while almost irrelevant on a site this size bodes well for scalability.
 
@@ -53,6 +55,8 @@ https://jamieduerden.co.uk {
     hugo
 }
 ```
+
+Why reinvent what someone else has so beautifully wrought, hm?
 
 I've taken the opportunity to update many of my old blog posts, reducing typos and so on, and to expand greatly my Projects section. That's somewhere between vanity and marketing, I think.
 
