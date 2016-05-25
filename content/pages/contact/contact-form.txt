@@ -1,5 +1,8 @@
-Name {{.Form.Get "name"}}
-Email {{.Form.Get "email"}}
+Name:
+{{.Form.Get "name"}}
+
+Email:
+{{.Form.Get "email"}}
 
 Message:
 {{.Form.Get "message"}}
