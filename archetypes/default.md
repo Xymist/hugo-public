@@ -1,6 +1,6 @@
 +++
 title = ""
 menu = "main"
-author = "james"
+author = "James"
 tags = []
 +++
