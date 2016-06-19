@@ -1,8 +1,10 @@
 +++
-date = "2016-06-16T17:39:00+01:00"
+date = "2016-03-10T17:39:00+01:00"
 menu = "main"
 title = "Extended Touchscreen Kiosk Project"
 +++
+
+[<i class="fa fa-github fa-3x"></i>](https://github.com/Xymist/caw-kiosk-logsite)
 
 This project is a follow-on from the Advice Services Transformation Fund project run in 2015, which ended in February 2016. While the initial pilot phase went well, it was clear that both the demand and the use case had evolved over the life of the project, and as more bids were coming up it was decided to expand and extend the project into a more coherent whole. Moreover, this was the opportunity to go back and eliminate some of our (my) technical debt; I had been put in the position of having produced a demonstration version which happened to function, and having that used in production due to timing issues. With the change in scale I was able to successfully argue for a more stable and planned rebuild. What was once the [companion site](https://github.com/Xymist/caw-kiosk-logsite) to a slightly hacky logscript took over serving the front end, with a full database of all clicks made on the interface. This moved the log data availability from "daily, if we're lucky and there are no connection problems" to practically instant.
 
