@@ -73,7 +73,9 @@ sudo make install-daemon-config
 
 That takes care of the software side, now it's just configuration.
 
-You need to allow Nagios to look at itself, so `sudo nano /etc/xinetd.d/nrpe` and add the IP address of the server you're working on to the line beginning `only_from = `. Then restart the service with `sudo service xinetd restart` - you shouldn't see an error. While we're on services, `sudo ln -s /etc/init.d/nagios /etc/rcS.d/S99nagios` will let the Nagios service restart on a reboot, which is handy because we're super lazy and can't be bothered to start these things manually.
+You need to allow Nagios to look at itself, so `sudo nano /etc/xinetd.d/nrpe` and add the IP address of the server you're working on to the line beginning `only_from = `. Then restart the service with `sudo service xinetd restart` - you shouldn't see an error.
+
+While we're on services, `sudo ln -s /etc/init.d/nagios /etc/rcS.d/S99nagios` will let the Nagios service restart on a reboot, which is handy because we're super lazy and can't be bothered to start these things manually.
 
 We're not using the standard /nagios location, which means we have to change that as well; `sudo nano /usr/local/nagios/etc/cgi.cfg` and find the line `url_html_path=/nagios`. Remove the last six characters.
 
@@ -143,6 +145,8 @@ server {
 
 You can then link this to the sites-enabled location with `ln -s /etc/nginx/sites-available/nagios /etc/nginx/sites-enabled/nagios` and restart Nginx with `sudo service nginx restart`.
 
-All being well, you should get an OK from the service restart, and browsing to nagios.yourdomain.tld should present you with the main panel; the only thing in Hosts is Localhost, but that's all right.
+All being well, you should get an OK from the service restart, and browsing to nagios.yourdomain.tld should present you with a login prompt and then the main panel; the only thing in Hosts is Localhost, but that's all right since we didn't create any others.
 
 **Next time** I'll cover adding and linking other hardware, sorting your config files, and custom service monitoring with plugins.
+
+---
