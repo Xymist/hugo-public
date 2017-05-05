@@ -10,7 +10,7 @@ RUN mkdir /usr/share/blog
 WORKDIR /usr/share/blog
 
 # Expose default hugo port
-EXPOSE 80
+EXPOSE 1313
 
 # Automatically build site
 COPY site/ /usr/share/blog
@@ -18,4 +18,4 @@ ONBUILD RUN hugo -d /usr/share/nginx/html/
 
 # By default, serve site
 ENV HUGO_BASE_URL http://jamieduerden.me
-CMD hugo server -b ${HUGO_BASE_URL} --port 80 --appendPort=false --bind=0.0.0.0
+CMD hugo server -b ${HUGO_BASE_URL} --appendPort=false --bind=0.0.0.0
