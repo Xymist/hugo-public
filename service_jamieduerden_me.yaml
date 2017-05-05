@@ -1,0 +1,16 @@
+# [START jamieduerden-me]
+---
+  kind: Service
+  apiVersion: v1
+  metadata:
+    name: jamieduerden-blog
+  spec:
+    type: NodePort
+    selector:
+        app: jamieduerden-blog
+    ports:
+      - protocol: TCP
+        port: 1313
+        targetPort: 1313
+        name: blog
+# [END jamieduerden-me]

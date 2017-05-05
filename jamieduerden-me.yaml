@@ -1,0 +1,42 @@
+# [START jamieduerden_me_deployment]
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: jamieduerden-me
+  labels:
+    app: jamieduerden-blog
+spec:
+  replicas: 1
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: jamieduerden-blog
+    spec:
+      containers:
+        - image: gcr.io/jamieduerden-me/hugo-public:406775f9af4058d09d1ba0983dbbb9e4ea43da0e
+          imagePullPolicy: IfNotPresent
+          name: jamieduerden-me
+          ports:
+          - containerPort: 1313
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 1313
+            periodSeconds: 10
+            timeoutSeconds: 5
+            successThreshold: 2
+            failureThreshold: 5
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
