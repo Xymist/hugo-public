@@ -1,6 +1,5 @@
----
-kind: ReplicationController
-apiVersion: v1
+kind: Deployment
+apiVersion: extensions/v1beta1
 metadata:
   name: nginx-ssl-proxy
   labels:
@@ -8,9 +7,11 @@ metadata:
     role: ssl-proxy
 spec:
   replicas: 1
-  selector:
-    name: nginx
-    role: ssl-proxy
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
   template:
     metadata:
       name: nginx-ssl-proxy
@@ -38,3 +39,9 @@ spec:
           containerPort: 80
         - name: ssl-proxy-https
           containerPort: 443
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+
