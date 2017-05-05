@@ -18,4 +18,4 @@ ONBUILD RUN hugo -d /usr/share/nginx/html/
 
 # By default, serve site
 ENV HUGO_BASE_URL http://jamieduerden.me
-CMD hugo server -b ${HUGO_BASE_URL} --bind=0.0.0.0
+CMD hugo server -b ${HUGO_BASE_URL} --appendPort=false --bind=0.0.0.0
