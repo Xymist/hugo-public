@@ -19,7 +19,7 @@ spec:
         app: jamieduerden-blog
     spec:
       containers:
-        - image: gcr.io/jamieduerden-me/hugo-public:a8db378ef8d6127ae62e39ae1fb773c137da06c2
+        - image: gcr.io/jamieduerden-me/hugo-public:c9e5c1631a9c30364dd13b513572a119939f5a7c
           imagePullPolicy: Always
           name: jamieduerden-me
           ports:
